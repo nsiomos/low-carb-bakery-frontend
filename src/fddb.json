@@ -1,0 +1,375 @@
+{
+  "baseIngredients": [
+    /*{
+      "id": "",
+      "name": "",
+      "energy": #,
+      "fat": [
+        #,
+        {
+          "saturates": #
+        }
+      ],
+      "protein": #,
+      "carbohydrates": [
+        #,
+        {
+          "sugars": #,
+          "polyols": #
+        }
+      ],
+      "fibres": #,
+      "sodium": #,
+      "ingredients": [[#],[]],
+      "traits": []      
+    }*/
+    {
+      "id": "sojaproteinisolat",
+      "name": "Sojaproteinisolat",
+      "energy": 378,
+      "fat": [
+        3.3,
+        {
+          "saturates": 0.9
+        }
+      ],
+      "protein": 91,
+      "carbohydrates": [
+        1,
+        {
+          "sugars": 0,
+          "polyols": 0
+        }
+      ],
+      "fibres": null,
+      "sodium": 1.67,
+      "ingredients": [["Sojaproteinisolat"], []],
+      "traits": []
+    },
+    {
+      "id": "kakaofasern",
+      "name": "Kakaofasern",
+      "energy": 258,
+      "fat": [
+        7.8,
+        {
+          "saturates": 4.5
+        }
+      ],
+      "protein": 17.3,
+      "carbohydrates": [
+        2.5,
+        {
+          "sugar": 0.5,
+          "polyols": 0
+        }
+      ],
+      "fibres": 57,
+      "sodium": 0.001,
+      "ingredients": [["Kakaofasern"], []],
+      "traits": []
+    },
+    {
+      "id": "zucker",
+      "name": "Zucker",
+      "energy": 0,
+      "fat": [
+        0,
+        {
+          "saturates": 0
+        }
+      ],
+      "protein": 0,
+      "carbohydrates": [
+        100,
+        {
+          "sugars": 0,
+          "polyols": 100
+        }
+      ],
+      "fibres": 0,
+      "sodium": 0,
+      "ingredients": [["Erythritol", "Stevia"], []],
+      "traits": []
+    },
+    {
+      "id": "puderzucker",
+      "name": "Puderzucker",
+      "energy": 0,
+      "fat": [
+        0,
+        {
+          "saturates": 0
+        }
+      ],
+      "protein": 0,
+      "carbohydrates": [
+        100,
+        {
+          "sugars": 0,
+          "polyols": 100
+        }
+      ],
+      "fibres": 0,
+      "sodium": 0,
+      "ingredients": [["Erythritol"], []],
+      "traits": []
+    },
+    {
+      "id": "Weizenkleber",
+      "name": "weizenkleber",
+      "energy": 374.75,
+      "fat": [
+        2,
+        {
+          "saturates": 0.01
+        }
+      ],
+      "protein": 82.5,
+      "carbohydrates": [
+        5,
+        {
+          "sugars": 0.01,
+          "polyols": null
+        }
+      ],
+      "fibres": 4,
+      "sodium": 0.025,
+      "ingredients": [["Weizeneiweiss (Gluten)"], []],
+      "traits": ["GLUTEN"]
+    },
+    {
+      "id": "haferfasern",
+      "name": "Haferfasern",
+      "energy": 187.14,
+      "fat": [
+        0,
+        {
+          "saturates": 0
+        }
+      ],
+      "protein": 0,
+      "carbohydrates": [
+        0,
+        {
+          "sugars": 0,
+          "polyols": null
+        }
+      ],
+      "fibres": 89,
+      "sodium": 0.1,
+      "ingredients": [["Haferfasern"], []],
+      "traits": []
+    },
+    {
+      "id": "leinsamenmehl-gold",
+      "name": "Leinsamenmehl Gold",
+      "energy": 333.17,
+      "fat": [
+        10,
+        {
+          "saturates": 0.9
+        }
+      ],
+      "protein": 37,
+      "carbohydrates": [
+        0.1,
+        {
+          "sugars": 0.1,
+          "polyols": null
+        }
+      ],
+      "fibres": 48,
+      "sodium": 0.01,
+      "ingredients": [["Goldleinsamen"], []],
+      "traits": []
+    },
+    {
+      "id": "sojamehl",
+      "name": "Sojamehl",
+      "energy": 400,
+      "fat": [
+        21,
+        {
+          "saturates": 3
+        }
+      ],
+      "protein": 41,
+      "carbohydrates": [
+        3,
+        {
+          "sugars": 1,
+          "polyols": null
+        }
+      ],
+      "fibres": 19,
+      "sodium": 0.025,
+      "ingredients": [["Sojamehl"], []],
+      "traits": []
+    },
+    {
+      "id": "schoko-pops",
+      "name": "Schoko-Pops",
+      "energy": 206.02,
+      "fat": [
+        5.2,
+        {
+          "saturates": 1.8
+        }
+      ],
+      "protein": 20.2,
+      "carbohydrates": [
+        29.8,
+        {
+          "sugars": 0.4,
+          "polyols": 29.8
+        }
+      ],
+      "fibres": 28,
+      "sodium": 0.8,
+      "ingredients": [
+        ["Entöltes Kürbiskernmehl", "Kakaofasern", "Erythrit", "Stevia"],
+        ["Flohsamenschalen", "natürliche Aromen"]
+      ],
+      "traits": []
+    },
+    {
+      "id": "sojakleie",
+      "name": "Sojakleie",
+      "energy": 189.29,
+      "fat": [
+        2,
+        {
+          "saturates": 1
+        }
+      ],
+      "protein": 13,
+      "carbohydrates": [
+        1,
+        {
+          "sugars": 0.5,
+          "polyols": null
+        }
+      ],
+      "fibres": 60,
+      "sodium": 0.1,
+      "ingredients": [["Sojakleie"], []],
+      "traits": []
+    },
+    {
+      "id": "sojagranulat",
+      "name": "Sojagranulat",
+      "energy": 308,
+      "fat": [
+        2.3,
+        {
+          "saturates": 0.6
+        }
+      ],
+      "protein": 49,
+      "carbohydrates": [
+        11,
+        {
+          "sugars": 11,
+          "polyols": null
+        }
+      ],
+      "fibres": null,
+      "sodium": 0.01,
+      "ingredients": [["Sojamehl"], ["Wasser"]],
+      "traits": []
+    },
+    {
+      "id": "sojaflocken",
+      "name": "Sojaflocken",
+      "energy": 403,
+      "fat": [
+        21,
+        {
+          "saturates": 2.6
+        }
+      ],
+      "protein": 41,
+      "carbohydrates": [
+        3.1,
+        {
+          "sugars": 3.1,
+          "polyols": null
+        }
+      ],
+      "fibres": 19,
+      "sodium": 0.01,
+      "ingredients": [["Sojaflocken"], []],
+      "traits": []
+    },
+    {
+      "id": "kuerbiskerne",
+      "name": "Kürbiskerne",
+      "energy": 590,
+      "fat": [
+        47,
+        {
+          "saturates": 8.9
+        }
+      ],
+      "protein": 37,
+      "carbohydrates": [
+        1.4,
+        {
+          "sugars": 1.4,
+          "polyols": null
+        }
+      ],
+      "fibres": 6.6,
+      "sodium": 0.03,
+      "ingredients": [["Kürbiskerne"], []],
+      "traits": []
+    },
+    {
+      "id": "mandeln",
+      "name": "Mandeln",
+      "energy": 604,
+      "fat": [
+        51,
+        {
+          "saturates": 3.8
+        }
+      ],
+      "protein": 25,
+      "carbohydrates": [
+        4.7,
+        {
+          "sugars": 4.7,
+          "polyols": null
+        }
+      ],
+      "fibres": null,
+      "sodium": #,
+      "ingredients": [["Mandeln"],[]],
+      "traits": []      
+    },
+    {
+      "id": "haselnusskerne",
+      "name": "Haselnusskerne",
+      "energy": 677,
+      "fat": [
+        62,
+        {
+          "saturates": #
+        }
+      ],
+      "protein": 18,
+      "carbohydrates": [
+        6.2,
+        {
+          "sugars": 6.2,
+          "polyols": #
+        }
+      ],
+      "fibres": 11,
+      "sodium": #,
+      "ingredients": [[#],[]],
+      "traits": []      
+    }    
+  ]
+}
