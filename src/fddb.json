@@ -326,8 +326,8 @@
       "traits": []
     },
     {
-      "id": "mandeln",
-      "name": "Mandeln",
+      "id": "mandeln-ganz",
+      "name": "Ganze Mandeln",
       "energy": 604,
       "fat": [
         51,
@@ -349,8 +349,23 @@
       "traits": []      
     },
     {
-      "id": "haselnusskerne",
-      "name": "Haselnusskerne",
+      "id": "mandeln-gehobelt",
+      "name": "Mandeln gehobelt",
+      "ref": "../mandeln-ganz"
+    },
+    {
+      "id": "mandeln-flocken",
+      "name": "Mandelflocken",
+      "ref": "../mandeln-ganz"
+    },
+    {
+      "id": "mandeln-gemahlen",
+      "name": "Mandeln gemahlen",
+      "ref": "../mandeln-ganz"
+    },
+    {
+      "id": "haselnusskerne-ganz",
+      "name": "Ganze Haselnusskerne",
       "energy": 677,
       "fat": [
         62,
