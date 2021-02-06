@@ -12,6 +12,138 @@
         "de_DE": "Salz"
       }
     },
+    "flavours": {
+      "name": {
+        "en_GB": "flavours",
+        "de_DE": "Aromen"
+      }
+    },
+    "natural-flavours": {
+      "name": {
+        "en_GB": "natural flavours",
+        "de_DE": "natürliche Aromen"
+      }
+    },
+    "spices": {
+      "name": {
+        "en_GB": "spices",
+        "de_DE": "Gewürze"
+      }
+    },
+    "spices-chilli": {
+      "name": {
+        "en_GB": "spices (with chilli)",
+        "de_DE": "Gewürze (mit Chili)"
+      }
+    },
+    "sugar": {
+      "name": {
+        "en_GB": "sugar",
+        "de_DE": "Zucker"
+      }
+    },
+    "sucralose": {
+      "name": {
+        "en_GB": "sucralose",
+        "de_DE": "Sucralose"
+      }
+    },
+    "yeast-extract": {
+      "name": {
+        "en_GB": "yeast extract",
+        "de_DE": "Hefeextrakt"
+      }
+    },
+    "onion-powder": {
+      "name": {
+        "en_GB": "onion powder",
+        "de_DE": "Zwiebelpulver"
+      }
+    },
+    "garlic-powder": {
+      "name": {
+        "en_GB": "garlic powder",
+        "de_DE": "Knoblauchpulver"
+      }
+    },
+    "paprika-extract": {
+      "name": {
+        "en_GB": "paprika-extract",
+        "de_DE": "Paprikaextrakt"
+      }
+    },
+    "citric-acid": {
+      "name": {
+        "en_GB": "citric acid",
+        "de_DE": "Zitronensäure"
+      }
+    },
+    "lactic-acid": {
+      "name": {
+        "en_GB": "lactic acid",
+        "de_DE": "Milchsäure"
+      }
+    },
+    "calcium-citrate": {
+      "name": {
+        "en_GB": "calcium citrate",
+        "de_DE": "Calciumcitrate"
+      }
+    },
+    "sodium-citrate": {
+      "name": {
+        "en_GB": "sodium citrate",
+        "de_DE": "Natriumcitrate"
+      }
+    },
+    "gellan-gum": {
+      "name": {
+        "en_GB": "gellan gum",
+        "de_DE": "Gellan"
+      }
+    },
+    "pektins": {
+      "name": {
+        "en_GB": "pektins",
+        "de_DE": "Pektine"
+      }
+    },
+    "antioxidants": {
+      "name": {
+        "en_GB": "antioxidants",
+        "de_DE": "Antioxidationsmittel"
+      }
+    },
+    "preservatives": {
+      "name": {
+        "en_GB": "preservatives",
+        "de_DE": "Konservierungsmittel"
+      }
+    },
+    "sodium-carboxy-methyl-cellulose": {
+      "name": {
+        "en_GB": "sodium carboxy methyl cellulose",
+        "de_DE": "Sodium Carboxymethylcellulose"
+      }
+    },
+    "xanthan-gum": {
+      "name": {
+        "en_GB": "xanthan gum",
+        "de_DE": "Xanthangummi"
+      }
+    },
+    "natural-color-caramel": {
+      "name": {
+        "en_GB": "natural color (caramel E150d)",
+        "de_DE": "natürlicher Farbstoff (Karamell E150d)"
+      }
+    },
+    "yogurt-cultures": {
+      "name": {
+        "en_GB": "yogurt cultures",
+        "de_DE": "Joghurtkulturen"
+      }
+    },
     "sunflower-oil": {
       "name": {
         "en_GB": "sunflower oil",
@@ -90,10 +222,22 @@
         "de_DE": "Leinsamen"
       }
     },
+    "gold-linseed": {
+      "name": {
+        "en_GB": "gold linseed",
+        "de_DE": "Goldleinsamen"
+      }
+    },
     "linseed-flour": {
       "name": {
         "en_GB": "linseed flour",
         "de_DE": "Leinsamenmehl"
+      }
+    },
+    "gold-linseed-flour": {
+      "name": {
+        "en_GB": "gold linseed flour",
+        "de_DE": "Goldleinsamenmehl"
       }
     },
     "pumpkin-seed-flour-de-oiled": {
@@ -106,12 +250,6 @@
       "name": {
         "en_GB": "psyllium husks",
         "de_DE": "Flohsamenschalen"
-      }
-    },
-    "natural-flavours": {
-      "name": {
-        "en_GB": "natural flavours",
-        "de_DE": "natürliche Aromen"
       }
     },
     "pumpkin-seeds": {
@@ -137,34 +275,16 @@
         "en_GB": "peanut kernels",
         "de_DE": "Erdnusskerne"
       }
+    },
+    "cashew-nuts": {
+      "name": {
+        "en_GB": "cashew nuts",
+        "de_DE": "Cashewkerne"
+      }
     }
   },
 
   "products": {
-    /*#: {
-    "name": #,
-    "nutrients": {
-      "energy": #,
-      "fat": [
-        #,
-        {
-          "saturates": #
-        }
-      ],
-      "protein": #,
-      "carbohydrates": [
-        #,
-        {
-          "sugars": #,
-          "polyols": #
-        }
-      ],
-      "fibres": #,
-      "sodium": #
-    },
-    "ingredients": [[#], []],
-    "traits": []
-  }*/
     "soy-protein-isolate": {
       "name": {
         "en_GB": "soy protein isolate",
@@ -351,7 +471,7 @@
         "fibres": 48,
         "sodium": 0.01
       },
-      "ingredients": [["/ingredients/linseed-flour"], []],
+      "ingredients": [["/ingredients/gold-linseed-flour"], []],
       "traits": []
     },
     "soy-flour": {
@@ -527,6 +647,33 @@
       "ingredients": [["/ingredients/pumpkin-seeds"], []],
       "traits": []
     },
+    "pumpkin-seeds-roasted-salted": {
+      "name": {
+        "en_GB": "roasted and salted pumpkin seeds",
+        "de_DE": "Kürbiskerne geröstet und gesalzen"
+      },
+      "nutrients": {
+        "energy": 582,
+        "fat": [
+          46,
+          {
+            "saturates": 9.4
+          }
+        ],
+        "protein": 37,
+        "carbohydrates": [
+          2,
+          {
+            "sugars": 1.4,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 1.3
+      },
+      "ingredients": [["/ingredients/pumpkin-seeds"], ["/ingredients/salt"]],
+      "traits": []
+    },
     "almonds-whole": {
       "name": {
         "en_GB": "whole almonds",
@@ -652,6 +799,317 @@
         ["/ingredients/sunflower-oil", "/ingredients/salt"]
       ],
       "traits": []
+    },
+    "gold-linseed-crushed": {
+      "name": {
+        "en_GB": "gold linseed crushed",
+        "de_DE": "Goldleinsamen geschrotet"
+      },
+      "nutrients": {
+        "energy": 533,
+        "fat": [
+          43,
+          {
+            "saturates": 4.7
+          }
+        ],
+        "protein": 20,
+        "carbohydrates": [
+          1,
+          {
+            "sugars": 0.9,
+            "polyols": null
+          }
+        ],
+        "fibres": 31,
+        "sodium": 0.15
+      },
+      "ingredients": [["/ingredients/gold-linseed"], []],
+      "traits": []
+    },
+    "cashew-peanut-mix-hot-chili": {
+      "name": {
+        "en_GB": "cashew peanut mix, hot chili",
+        "de_DE": "Cashew-Erdnuss-Mix, Hot Chili"
+      },
+      "nutrients": {
+        "energy": 612,
+        "fat": [
+          50,
+          {
+            "saturates": 8.4
+          }
+        ],
+        "protein": 21,
+        "carbohydrates": [
+          17,
+          {
+            "sugars": 5.9,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 1.6
+      },
+      "ingredients": [
+        ["/ingredients/cashew-nuts", "/ingredients/peanut-kernels"],
+        [
+          "/ingredients/sunflower-oil",
+          "/ingredients/salt",
+          "/ingredients/spices-chilli",
+          "/ingredients/sugar",
+          "/ingredients/yeast-extract",
+          "/ingredients/onion-powder",
+          "/ingredients/flavours",
+          "/ingredients/garlic-powder",
+          "/ingredients/paprika-extract",
+          "/ingredients/citric-acid"
+        ]
+      ],
+      "traits": []
+    },
+    "almond-drink": {
+      "name": {
+        "en_GB": "almond drink",
+        "de_DE": "Mandeldrink"
+      },
+      "nutrients": {
+        "energy": 14,
+        "fat": [
+          1.3,
+          {
+            "saturates": 0.1
+          }
+        ],
+        "protein": 0.5,
+        "carbohydrates": [
+          0.5,
+          {
+            "sugars": 0.5,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 0.13
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/almonds",
+          "/ingredients/salt",
+          "/ingredients/calcium-citrate",
+          "/ingredients/gellan-gum"
+        ]
+      ],
+      "traits": []
+    },
+    "skyr": {
+      "name": {
+        "en_GB": "skyr",
+        "de_DE": "Skyr"
+      },
+      "nutrients": {
+        "energy": 60,
+        "fat": [
+          3.3,
+          {
+            "saturates": 0.6
+          }
+        ],
+        "protein": 5.8,
+        "carbohydrates": [
+          0,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 1.3,
+        "sodium": 0.33
+      },
+      "ingredients": [["/ingredients/water", "/ingredients/soy"], []],
+      "traits": [
+        "/ingredients/pektins",
+        "/ingredients/calcium-citrate",
+        "/ingredients/sodium-citrate",
+        "/ingredients/citric-acid",
+        "/ingredients/natural-flavours",
+        "/ingredients/antioxidants",
+        "/ingredients/salt",
+        "/ingredients/yogurt-cultures"
+      ]
+    },
+    "syrup-maple": {
+      "name": {
+        "en_GB": "maple syrup",
+        "de_DE": "Ahornsirup"
+      },
+      "nutrients": {
+        "energy": 4,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          0,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 1.2,
+        "sodium": 0.55
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/sodium-carboxy-methyl-cellulose",
+          "/ingredients/xanthan-gum",
+          "/ingredients/natural-flavours",
+          "/ingredients/salt",
+          "/ingredients/natural-colour-caramel",
+          "/ingredients/lactic-acid",
+          "/ingredients/sucralose",
+          "/ingredients/preservatives"
+        ]
+      ],
+      "traits": []
+    },
+    "syrup-vanilla": {
+      "name": {
+        "en_GB": "vanilla syrup",
+        "de_DE": "Vanillesirup"
+      },
+      "nutrients": {
+        "energy": 4,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          0,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 1.1,
+        "sodium": 0.55
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/sodium-carboxy-methyl-cellulose",
+          "/ingredients/xanthan-gum",
+          "/ingredients/natural-flavours",
+          "/ingredients/salt",
+          "/ingredients/lactic-acid",
+          "/ingredients/sucralose",
+          "/ingredients/preservatives",
+          "/ingredients/natural-colour-caramel"
+        ]
+      ],
+      "traits": []
+    },
+    "syrup-honey": {
+      "name": {
+        "en_GB": "honey syrup",
+        "de_DE": "Honigsirup"
+      },
+      "nutrients": {
+        "energy": 3,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          0.1,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 1.1,
+        "sodium": 0.3
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/sodium-carboxy-methyl-cellulose",
+          "/ingredients/xanthan-gum",
+          "/ingredients/natural-flavours",
+          "/ingredients/salt",
+          "/ingredients/lactic-acid",
+          "/ingredients/sucralose",
+          "/ingredients/natural-colour-caramel",
+          "/ingredients/preservatives"
+        ]
+      ],
+      "traits": []
+    },
+    "syrup-chocolate-caramel": {
+      "name": {
+        "en_GB": "chocolate-caramel syrup",
+        "de_DE": "Schokolade-Karamell-Sirup"
+      },
+      "nutrients": {
+        "energy": 6,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          0,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 1.2,
+        "sodium": 0.56
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/sodium-carboxy-methyl-cellulose",
+          "/ingredients/xanthan-gum",
+          "/ingredients/natural-flavours",
+          "/ingredients/salt",
+          "/ingredients/lactic-acid",
+          "/ingredients/natural-colour-caramel",
+          "/ingredients/sucralose",
+          "/ingredients/preservatives"
+        ]
+      ],
+      "traits": []
+    }
+  },
+
+  "recipes": {
+    "flour": {
+      "name": {
+        "en_GB": "flour",
+        "de_DE": "Mehl"
+      },
+      "ingredients": {
+        "/products/wheat-gluten": 0.15,
+        "/products/oat-fiber": 0.15,
+        "/products/gold-linseed-flour": 0.15,
+        "/products/soy-flour": 0.15,
+        "/ingredients/water": 0.4
+      }
     }
   }
 }
