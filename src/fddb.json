@@ -1,5 +1,146 @@
-l{}
-  "products":
+{
+  "ingredients": {
+    "water": {
+      "name": {
+        "en_GB": "water",
+        "de_DE": "Wasser"
+      }
+    },
+    "salt": {
+      "name": {
+        "en_GB": "salt",
+        "de_DE": "Salz"
+      }
+    },
+    "sunflower-oil": {
+      "name": {
+        "en_GB": "sunflower oil",
+        "de_DE": "Sonnenblumenöl"
+      }
+    },
+    "soy-protein": {
+      "name": {
+        "en_GB": "soy protein",
+        "de_DE": "Sojaprotein"
+      }
+    },
+    "soy": {
+      "name": {
+        "en_GB": "soy",
+        "de_DE": "Soja"
+      }
+    },
+    "soy-flour-full-fat": {
+      "name": {
+        "en_GB": "soy flour full fat",
+        "de_DE": "Sojamehl vollfett"
+      }
+    },
+    "soy-flour-de-oiled": {
+      "name": {
+        "en_GB": "soy flour de-oiled",
+        "de_DE": "Sojamehl entölt"
+      }
+    },
+    "soy-bran": {
+      "name": {
+        "en_GB": "soy bran",
+        "de_DE": "Sojakleie"
+      }
+    },
+    "soy-flakes": {
+      "name": {
+        "en_GB": "soy flakes",
+        "de_DE": "Sojaflocken"
+      }
+    },
+    "cocoa-fiber": {
+      "name": {
+        "en_GB": "cocoa fiber",
+        "de_DE": "Kakaofasern"
+      }
+    },
+    "erythritol": {
+      "name": {
+        "en_GB": "erythritol",
+        "de_DE": "Erythritol"
+      }
+    },
+    "stevia": {
+      "name": {
+        "en_GB": "stevia",
+        "de_DE": "Stevia"
+      }
+    },
+    "wheat-protein": {
+      "name": {
+        "en_GB": "wheat protein (gluten)",
+        "de_DE": "Weizeneiweiß (Gluten)"
+      }
+    },
+    "oat-fiber": {
+      "name": {
+        "en_GB": "oat fiber",
+        "de_DE": "Haferfasern"
+      }
+    },
+    "linseed": {
+      "name": {
+        "en_GB": "linseed",
+        "de_DE": "Leinsamen"
+      }
+    },
+    "linseed-flour": {
+      "name": {
+        "en_GB": "linseed flour",
+        "de_DE": "Leinsamenmehl"
+      }
+    },
+    "pumpkin-seed-flour-de-oiled": {
+      "name": {
+        "en_GB": "pumpkin seed flour de-oiled",
+        "de_DE": "Kürbiskernmehl entölt"
+      }
+    },
+    "psyllium-husks": {
+      "name": {
+        "en_GB": "psyllium husks",
+        "de_DE": "Flohsamenschalen"
+      }
+    },
+    "natural-flavours": {
+      "name": {
+        "en_GB": "natural flavours",
+        "de_DE": "natürliche Aromen"
+      }
+    },
+    "pumpkin-seeds": {
+      "name": {
+        "en_GB": "pumpkin seeds",
+        "de_DE": "Kürbiskerne"
+      }
+    },
+    "almonds": {
+      "name": {
+        "en_GB": "almonds",
+        "de_DE": "Mandeln"
+      }
+    },
+    "hazelnut-kernels": {
+      "name": {
+        "en_GB": "hazelnut kernels",
+        "de_DE": "Haselnusskerne"
+      }
+    },
+    "peanut-kernels": {
+      "name": {
+        "en_GB": "peanut kernels",
+        "de_DE": "Erdnusskerne"
+      }
+    }
+  },
+
+  "products": {
     /*#: {
     "name": #,
     "nutrients": {
@@ -24,404 +165,493 @@ l{}
     "ingredients": [[#], []],
     "traits": []
   }*/
-  "sojaproteinisolat": {
-    "name": "Sojaproteinisolat",
-    "nutrients": {
-      "energy": 378,
-      "fat": [
-        3.3,
-        {
-          "saturates": 0.9
-        }
-      ],
-      "protein": 91,
-      "carbohydrates": [
-        1,
-        {
-          "sugars": 0,
-          "polyols": 0
-        }
-      ],
-      "fibres": null,
-      "sodium": 1.67
+    "soy-protein-isolate": {
+      "name": {
+        "en_GB": "soy protein isolate",
+        "de_DE": "Sojaproteinisolat"
+      },
+      "nutrients": {
+        "energy": 378,
+        "fat": [
+          3.3,
+          {
+            "saturates": 0.9
+          }
+        ],
+        "protein": 91,
+        "carbohydrates": [
+          1,
+          {
+            "sugars": 0,
+            "polyols": 0
+          }
+        ],
+        "fibres": null,
+        "sodium": 1.67
+      },
+      "ingredients": [["/ingredients/soy-protein-isolate"], []],
+      "traits": []
     },
-    "ingredients": [["Sojaproteinisolat"], []],
-    "traits": []
-  },
-  "kakaofasern": {
-    "name": "Kakaofasern",
-    "nutrients": {
-      "energy": 258,
-      "fat": [
-        7.8,
-        {
-          "saturates": 4.5
-        }
-      ],
-      "protein": 17.3,
-      "carbohydrates": [
-        2.5,
-        {
-          "sugar": 0.5,
-          "polyols": null
-        }
-      ],
-      "fibres": 57,
-      "sodium": 0.001
+    "cocoa-fiber": {
+      "name": {
+        "en_GB": "cocoa fiber",
+        "de_DE": "Kakaofasern"
+      },
+      "nutrients": {
+        "energy": 258,
+        "fat": [
+          7.8,
+          {
+            "saturates": 4.5
+          }
+        ],
+        "protein": 17.3,
+        "carbohydrates": [
+          2.5,
+          {
+            "sugar": 0.5,
+            "polyols": null
+          }
+        ],
+        "fibres": 57,
+        "sodium": 0.001
+      },
+      "ingredients": [["/ingredients/cocoa-fiber"], []],
+      "traits": []
     },
-    "ingredients": [["Kakaofasern"], []],
-    "traits": []
-  },
-  "zucker": {
-    "name": "Zucker",
-    "nutrients": {
-      "energy": 0,
-      "fat": [
-        0,
-        {
-          "saturates": 0
-        }
-      ],
-      "protein": 0,
-      "carbohydrates": [
-        100,
-        {
-          "sugars": 0,
-          "polyols": 100
-        }
-      ],
-      "fibres": 0,
-      "sodium": 0
+    "sugar": {
+      "name": {
+        "en_GB": "sugar",
+        "de_DE": "Zucker"
+      },
+      "nutrients": {
+        "energy": 0,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          100,
+          {
+            "sugars": 0,
+            "polyols": 100
+          }
+        ],
+        "fibres": 0,
+        "sodium": 0
+      },
+      "ingredients": [["/ingredients/erythritol", "/ingredients/stevia"], []],
+      "traits": []
     },
-    "ingredients": [["Erythritol", "Stevia"], []],
-    "traits": []
-  },
-  "puderzucker": {
-    "name": "Puderzucker",
-    "nutrients": {
-      "energy": 0,
-      "fat": [
-        0,
-        {
-          "saturates": 0
-        }
-      ],
-      "protein": 0,
-      "carbohydrates": [
-        100,
-        {
-          "sugars": 0,
-          "polyols": 100
-        }
-      ],
-      "fibres": 0,
-      "sodium": 0
+    "powdered-sugar": {
+      "name": {
+        "en_GB": "powdered sugar",
+        "de_DE": "Puderzucker"
+      },
+      "nutrients": {
+        "energy": 0,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          100,
+          {
+            "sugars": 0,
+            "polyols": 100
+          }
+        ],
+        "fibres": 0,
+        "sodium": 0
+      },
+      "ingredients": [["/ingredients/erythritol"], []],
+      "traits": []
     },
-    "ingredients": [["Erythritol"], []],
-    "traits": []
-  },
-  "weizenkleber": {
-    "name": "Weizenkleber",
-    "nutrients": {
-      "energy": 374.75,
-      "fat": [
-        2,
-        {
-          "saturates": 0.01
-        }
-      ],
-      "protein": 82.5,
-      "carbohydrates": [
-        5,
-        {
-          "sugars": 0.01,
-          "polyols": null
-        }
-      ],
-      "fibres": 4,
-      "sodium": 0.025
+    "wheat-gluten": {
+      "name": {
+        "en_GB": "wheat gluten",
+        "de_DE": "Weizenkleber"
+      },
+      "nutrients": {
+        "energy": 374.75,
+        "fat": [
+          2,
+          {
+            "saturates": 0.01
+          }
+        ],
+        "protein": 82.5,
+        "carbohydrates": [
+          5,
+          {
+            "sugars": 0.01,
+            "polyols": null
+          }
+        ],
+        "fibres": 4,
+        "sodium": 0.025
+      },
+      "ingredients": [["/ingredients/wheat-protein"], []],
+      "traits": ["GLUTEN"]
     },
-    "ingredients": [["Weizeneiweiss (Gluten)"], []],
-    "traits": ["GLUTEN"]
-  },
-  "haferfasern": {
-    "name": "Haferfasern",
-    "nutrients": {
-      "energy": 187.14,
-      "fat": [
-        0,
-        {
-          "saturates": 0
-        }
-      ],
-      "protein": 0,
-      "carbohydrates": [
-        0,
-        {
-          "sugars": 0,
-          "polyols": null
-        }
-      ],
-      "fibres": 89,
-      "sodium": 0.1
+    "oat-fiber": {
+      "name": {
+        "en_GB": "oat fiber",
+        "de_DE": "Haferfasern"
+      },
+      "nutrients": {
+        "energy": 187.14,
+        "fat": [
+          0,
+          {
+            "saturates": 0
+          }
+        ],
+        "protein": 0,
+        "carbohydrates": [
+          0,
+          {
+            "sugars": 0,
+            "polyols": null
+          }
+        ],
+        "fibres": 89,
+        "sodium": 0.1
+      },
+      "ingredients": [["/ingredients/oat-fiber"], []],
+      "traits": []
     },
-    "ingredients": [["Haferfasern"], []],
-    "traits": []
-  },
-  "leinsamenmehl-gold": {
-    "name": "Leinsamenmehl Gold",
-    "nutrients": {
-      "energy": 333.17,
-      "fat": [
-        10,
-        {
-          "saturates": 0.9
-        }
-      ],
-      "protein": 37,
-      "carbohydrates": [
-        0.1,
-        {
-          "sugars": 0.1,
-          "polyols": null
-        }
-      ],
-      "fibres": 48,
-      "sodium": 0.01
+    "gold-linseed-flour": {
+      "name": {
+        "en_GB": "gold linseed flour",
+        "de_DE": "Goldleinsamenmehl"
+      },
+      "nutrients": {
+        "energy": 333.17,
+        "fat": [
+          10,
+          {
+            "saturates": 0.9
+          }
+        ],
+        "protein": 37,
+        "carbohydrates": [
+          0.1,
+          {
+            "sugars": 0.1,
+            "polyols": null
+          }
+        ],
+        "fibres": 48,
+        "sodium": 0.01
+      },
+      "ingredients": [["/ingredients/linseed-flour"], []],
+      "traits": []
     },
-    "ingredients": [["Goldleinsamen"], []],
-    "traits": []
-  },
-  "sojamehl": {
-    "name": "Sojamehl",
-    "nutrients": {
-      "energy": 400,
-      "fat": [
-        21,
-        {
-          "saturates": 3
-        }
-      ],
-      "protein": 41,
-      "carbohydrates": [
-        3,
-        {
-          "sugars": 1,
-          "polyols": null
-        }
-      ],
-      "fibres": 19,
-      "sodium": 0.025
+    "soy-flour": {
+      "name": {
+        "en_GB": "soy flour",
+        "de_DE": "Sojamehl"
+      },
+      "nutrients": {
+        "energy": 400,
+        "fat": [
+          21,
+          {
+            "saturates": 3
+          }
+        ],
+        "protein": 41,
+        "carbohydrates": [
+          3,
+          {
+            "sugars": 1,
+            "polyols": null
+          }
+        ],
+        "fibres": 19,
+        "sodium": 0.025
+      },
+      "ingredients": [["/ingredients/soy-flour-full-fat"], []],
+      "traits": []
     },
-    "ingredients": [["Sojamehl"], []],
-    "traits": []
-  },
-  "schoko-pops": {
-    "name": "Schoko-Pops",
-    "nutrients": {
-      "energy": 206.02,
-      "fat": [
-        5.2,
-        {
-          "saturates": 1.8
-        }
+    "chocolate-pops": {
+      "name": {
+        "en_GB": "chocolate pops",
+        "de_DE": "Schoko-Pops"
+      },
+      "nutrients": {
+        "energy": 206.02,
+        "fat": [
+          5.2,
+          {
+            "saturates": 1.8
+          }
+        ],
+        "protein": 20.2,
+        "carbohydrates": [
+          29.8,
+          {
+            "sugars": 0.4,
+            "polyols": 29.8
+          }
+        ],
+        "fibres": 28,
+        "sodium": 0.8
+      },
+      "ingredients": [
+        [
+          "/ingredients/pumpkin-seed-flour-de-oiled",
+          "/ingredients/cocoa-fiber",
+          "/ingredients/erythritol",
+          "/ingredients/stevia"
+        ],
+        ["/ingredients/psyllium-husks", "/ingredients/natural-flavours"]
       ],
-      "protein": 20.2,
-      "carbohydrates": [
-        29.8,
-        {
-          "sugars": 0.4,
-          "polyols": 29.8
-        }
-      ],
-      "fibres": 28,
-      "sodium": 0.8
+      "traits": []
     },
-    "ingredients": [
-      ["Entöltes Kürbiskernmehl", "Kakaofasern", "Erythrit", "Stevia"],
-      ["Flohsamenschalen", "natürliche Aromen"]
-    ],
-    "traits": []
-  },
-  "sojakleie": {
-    "name": "Sojakleie",
-    "nutrients": {
-      "energy": 189.29,
-      "fat": [
-        2,
-        {
-          "saturates": 1
-        }
-      ],
-      "protein": 13,
-      "carbohydrates": [
-        1,
-        {
-          "sugars": 0.5,
-          "polyols": null
-        }
-      ],
-      "fibres": 60,
-      "sodium": 0.1
+    "soy-bran": {
+      "name": {
+        "en_GB": "soy bran",
+        "de_DE": "Sojakleie"
+      },
+      "nutrients": {
+        "energy": 189.29,
+        "fat": [
+          2,
+          {
+            "saturates": 1
+          }
+        ],
+        "protein": 13,
+        "carbohydrates": [
+          1,
+          {
+            "sugars": 0.5,
+            "polyols": null
+          }
+        ],
+        "fibres": 60,
+        "sodium": 0.1
+      },
+      "ingredients": [["/ingredients/soy-bran"], []],
+      "traits": []
     },
-    "ingredients": [["Sojakleie"], []],
-    "traits": []
-  },
-  "sojagranulat": {
-    "name": "Sojagranulat",
-    "nutrients": {
-      "energy": 308,
-      "fat": [
-        2.3,
-        {
-          "saturates": 0.6
-        }
+    "soy-granules": {
+      "name": {
+        "en_GB": "soy granules",
+        "de_DE": "Sojagranulat"
+      },
+      "nutrients": {
+        "energy": 308,
+        "fat": [
+          2.3,
+          {
+            "saturates": 0.6
+          }
+        ],
+        "protein": 49,
+        "carbohydrates": [
+          11,
+          {
+            "sugars": 11,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 0.01
+      },
+      "ingredients": [
+        ["/ingredients/soy-flour-de-oiled"],
+        ["/ingredients/water"]
       ],
-      "protein": 49,
-      "carbohydrates": [
-        11,
-        {
-          "sugars": 11,
-          "polyols": null
-        }
-      ],
-      "fibres": null,
-      "sodium": 0.01
+      "traits": []
     },
-    "ingredients": [["Sojamehl"], ["Wasser"]],
-    "traits": []
-  },
-  "sojaflocken": {
-    "name": "Sojaflocken",
-    "nutrients": {
-      "energy": 403,
-      "fat": [
-        21,
-        {
-          "saturates": 2.6
-        }
-      ],
-      "protein": 41,
-      "carbohydrates": [
-        3.1,
-        {
-          "sugars": 3.1,
-          "polyols": null
-        }
-      ],
-      "fibres": 19,
-      "sodium": 0.01
+    "soy-flakes": {
+      "name": {
+        "en_GB": "soy flakes",
+        "de_DE": "Sojaflocken"
+      },
+      "nutrients": {
+        "energy": 403,
+        "fat": [
+          21,
+          {
+            "saturates": 2.6
+          }
+        ],
+        "protein": 41,
+        "carbohydrates": [
+          3.1,
+          {
+            "sugars": 3.1,
+            "polyols": null
+          }
+        ],
+        "fibres": 19,
+        "sodium": 0.01
+      },
+      "ingredients": [["/ingredients/soy-flakes"], []],
+      "traits": []
     },
-    "ingredients": [["Sojaflocken"], []],
-    "traits": []
-  },
-  "kuerbiskerne": {
-    "name": "Kürbiskerne",
-    "nutrients": {
-      "energy": 590,
-      "fat": [
-        47,
-        {
-          "saturates": 8.9
-        }
-      ],
-      "protein": 37,
-      "carbohydrates": [
-        1.4,
-        {
-          "sugars": 1.4,
-          "polyols": null
-        }
-      ],
-      "fibres": 6.6,
-      "sodium": 0.03
+    "pumpkin-seeds": {
+      "name": {
+        "en_GB": "pumpkin seeds",
+        "de_DE": "Kürbiskerne"
+      },
+      "nutrients": {
+        "energy": 590,
+        "fat": [
+          47,
+          {
+            "saturates": 8.9
+          }
+        ],
+        "protein": 37,
+        "carbohydrates": [
+          1.4,
+          {
+            "sugars": 1.4,
+            "polyols": null
+          }
+        ],
+        "fibres": 6.6,
+        "sodium": 0.03
+      },
+      "ingredients": [["/ingredients/pumpkin-seeds"], []],
+      "traits": []
     },
-    "ingredients": [["Kürbiskerne"], []],
-    "traits": []
-  },
-  "mandeln-ganz": {
-    "name": "Ganze Mandeln",
-    "nutrients": {
-      "energy": 609,
-      "fat": [
-        51.6,
-        {
-          "saturates": 5.0
-        }
-      ],
-      "protein": 24.7,
-      "carbohydrates": [
-        4.7,
-        {
-          "sugars": 4.5,
-          "polyols": null
-        }
-      ],
-      "fibres": 13.5,
-      "sodium": 0.01
+    "almonds-whole": {
+      "name": {
+        "en_GB": "whole almonds",
+        "de_DE": "Ganze Mandeln"
+      },
+      "nutrients": {
+        "energy": 609,
+        "fat": [
+          51.6,
+          {
+            "saturates": 5.0
+          }
+        ],
+        "protein": 24.7,
+        "carbohydrates": [
+          4.7,
+          {
+            "sugars": 4.5,
+            "polyols": null
+          }
+        ],
+        "fibres": 13.5,
+        "sodium": 0.01
+      },
+      "ingredients": [["/ingredients/almonds"], []],
+      "traits": []
     },
-    "ingredients": [["Mandeln"], []],
-    "traits": []
-  },
-  "mandeln-gehobelt": {
-    "name": "Mandeln gehobelt",
-    "ref": "../mandeln-ganz"
-  },
-  "mandeln-flocken": {
-    "name": "Mandelflocken",
-    "ref": "../mandeln-ganz"
-  },
-  "mandeln-gemahlen": {
-    "name": "Mandeln gemahlen",
-    "ref": "../mandeln-ganz"
-  },
-  "haselnusskerne-ganz": {
-    "name": "Ganze Haselnusskerne",
-    "nutrients": {
-      "energy": 656,
-      "fat": [
-        61,
-        {
-          "saturates": 5
-        }
-      ],
-      "protein": 14,
-      "carbohydrates": [
-        7.3,
-        {
-          "sugars": 4.7,
-          "polyols": null
-        }
-      ],
-      "fibres": 11,
-      "sodium": 0.01
+    "almonds-sliced": {
+      "name": {
+        "en_GB": "sliced almonds",
+        "de_DE": "Mandeln gehobelt"
+      },
+      "ref": "../almonds-whole"
     },
-    "ingredients": [["Haselnusskerne"], []],
-    "traits": []
-  },
-  "erdnuesse-geroestet-gesalzen": {
-    "name": "Erdnüsse geröstet und gesalzen",
-    "nutrients": {
-      "energy": 618,
-      "fat": [
-        51,
-        {
-          "saturates": 7.5
-        }
-      ],
-      "protein": 26,
-      "carbohydrates": [
-        11,
-        {
-          "sugars": 6.7,
-          "polyols": null
-        }
-      ],
-      "fibres": 5.3,
-      "sodium": 0.8
+    "almonds-flakes": {
+      "name": {
+        "en_GB": "almond flakes",
+        "de_DE": "Mandelflocken"
+      },
+      "ref": "../almonds-whole"
     },
-    "ingredients": [["Erdnusskerne"], ["Sonnenblumenöl", "Salz"]],
-    "traits": []
+    "almonds-ground": {
+      "name": {
+        "en_GB": "ground almonds",
+        "de_DE": "Mandeln gemahlen"
+      },
+      "ref": "../almonds-whole"
+    },
+    "hazelnut-kernels-whole": {
+      "name": {
+        "en_GB": "whole hazelnut kernels",
+        "de_DE": "Ganze Haselnusskerne"
+      },
+      "nutrients": {
+        "energy": 656,
+        "fat": [
+          61,
+          {
+            "saturates": 5
+          }
+        ],
+        "protein": 14,
+        "carbohydrates": [
+          7.3,
+          {
+            "sugars": 4.7,
+            "polyols": null
+          }
+        ],
+        "fibres": 11,
+        "sodium": 0.01
+      },
+      "ingredients": [["/ingredients/hazelnut-kernels"], []],
+      "traits": []
+    },
+    "hazelnut-kernels-sliced": {
+      "name": {
+        "en_GB": "sliced hazelnut kernels",
+        "de_DE": "Haselnusskerne gehobelt"
+      },
+      "ref": "../hazelnut-kernels-whole"
+    },
+    "hazelnut-kernels-flakes": {
+      "name": {
+        "en_GB": "hazelnut flakes",
+        "de_DE": "Haselnussflocken"
+      },
+      "ref": "../hazelnut-kernels-whole"
+    },
+    "hazelnut-kernels-ground": {
+      "name": {
+        "en_GB": "ground hazelnut kernels",
+        "de_DE": "Haselnusskerne gemahlen"
+      },
+      "ref": "../hazelnut-kernels-whole"
+    },
+    "peanuts-roasted-salted": {
+      "name": {
+        "en_GB": "peanuts roasted and salted",
+        "de_DE": "Erdnüsse geröstet und gesalzen"
+      },
+      "nutrients": {
+        "energy": 618,
+        "fat": [
+          51,
+          {
+            "saturates": 7.5
+          }
+        ],
+        "protein": 26,
+        "carbohydrates": [
+          11,
+          {
+            "sugars": 6.7,
+            "polyols": null
+          }
+        ],
+        "fibres": 5.3,
+        "sodium": 0.8
+      },
+      "ingredients": [
+        ["/ingredients/peanut-kernels"],
+        ["/ingredients/sunflower-oil", "/ingredients/salt"]
+      ],
+      "traits": []
+    }
   }
-   }
 }
