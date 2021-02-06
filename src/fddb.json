@@ -84,6 +84,12 @@
         "de_DE": "Milchsäure"
       }
     },
+    "edible-fatty-acids": {
+      "name": {
+        "en_GB": "edible fatty acids",
+        "de_DE": "Speisefettsäuren"
+      }
+    },
     "calcium-citrate": {
       "name": {
         "en_GB": "calcium citrate",
@@ -138,6 +144,12 @@
         "de_DE": "natürlicher Farbstoff (Karamell E150d)"
       }
     },
+    "color-carotene": {
+      "name": {
+        "en_GB": "color (carotene)",
+        "de_DE": "Farbstoff (Carotin)"
+      }
+    },
     "yogurt-cultures": {
       "name": {
         "en_GB": "yogurt cultures",
@@ -148,6 +160,24 @@
       "name": {
         "en_GB": "sunflower oil",
         "de_DE": "Sonnenblumenöl"
+      }
+    },
+    "linseed-oil": {
+      "name": {
+        "en_GB": "linseed oil",
+        "de_DE": "Leinsamenöl"
+      }
+    },
+    "rapeseed-oil": {
+      "name": {
+        "en_GB": "rapeseed oil",
+        "de_DE": "Rapsöl"
+      }
+    },
+    "palm-fat": {
+      "name": {
+        "en_GB": "palm fat",
+        "de_DE": "Palmfett"
       }
     },
     "soy-protein": {
@@ -280,6 +310,12 @@
       "name": {
         "en_GB": "cashew nuts",
         "de_DE": "Cashewkerne"
+      }
+    },
+    "chicken-egg": {
+      "name": {
+        "en_GB": "chicken egg",
+        "de_DE": "Hühnerei"
       }
     }
   },
@@ -1119,20 +1155,50 @@
         "fibres": 0,
         "sodium": 0.3
       },
+      "ingredients": [["/ingredients/chicken-egg"], []],
+      "traits": ["ANIMAL_PRODUCT"]
+    },
+    "margarine": {
+      "name": {
+        "en_GB": "margarine",
+        "de_DE": "Margarine"
+      },
+      "nutrients": {
+        "energy": 265,
+        "fat": [
+          30,
+          {
+            "saturates": 6
+          }
+        ],
+        "protein": 0.5,
+        "carbohydrates": [
+          0.5,
+          {
+            "sugars": 0.5,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 0.12
+      },
       "ingredients": [
-        ["/ingredients/water"],
         [
-          "/ingredients/sodium-carboxy-methyl-cellulose",
-          "/ingredients/xanthan-gum",
-          "/ingredients/natural-flavours",
-          "/ingredients/salt",
-          "/ingredients/lactic-acid",
-          "/ingredients/natural-colour-caramel",
-          "/ingredients/sucralose",
-          "/ingredients/preservatives"
-        ]
+          "/ingredients/water",
+          "/ingredients/sunflower-oil",
+          "/ingredients/linseed-oil",
+          "/ingredients/rapeseed-oil"
+        ],
+        []
       ],
-      "traits": []
+      "traits": [
+        "/ingredients/palm-fat",
+        "/ingredients/edible-fatty-acids",
+        "/ingredients/salt",
+        "/ingredients/citric-acid",
+        "/ingredients/flavours",
+        "/ingredients/colour-carotene"
+      ]
     }
   },
 
