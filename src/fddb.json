@@ -42,6 +42,12 @@
         "de_DE": "Zucker"
       }
     },
+    "dextrose": {
+      "name": {
+        "en_GB": "dextrose",
+        "de_DE": "Dextrose"
+      }
+    },
     "sucralose": {
       "name": {
         "en_GB": "sucralose",
@@ -112,6 +118,12 @@
       "name": {
         "en_GB": "pektins",
         "de_DE": "Pektine"
+      }
+    },
+    "diphosphates": {
+      "name": {
+        "en_GB": "diphosphates",
+        "de_DE": "Diphosphate"
       }
     },
     "antioxidants": {
@@ -316,6 +328,12 @@
       "name": {
         "en_GB": "chicken egg",
         "de_DE": "Hühnerei"
+      }
+    },
+    "pork-meat": {
+      "name": {
+        "en_GB": "pork meat",
+        "de_DE": "Schweinefleisch"
       }
     }
   },
@@ -1189,16 +1207,53 @@
           "/ingredients/linseed-oil",
           "/ingredients/rapeseed-oil"
         ],
-        []
+        [
+          "/ingredients/palm-fat",
+          "/ingredients/edible-fatty-acids",
+          "/ingredients/salt",
+          "/ingredients/citric-acid",
+          "/ingredients/flavours",
+          "/ingredients/colour-carotene"
+        ]
       ],
-      "traits": [
-        "/ingredients/palm-fat",
-        "/ingredients/edible-fatty-acids",
-        "/ingredients/salt",
-        "/ingredients/citric-acid",
-        "/ingredients/flavours",
-        "/ingredients/colour-carotene"
-      ]
+      "traits": []
+    },
+    "pork-ham": {
+      "name": {
+        "en_GB": "pork ham",
+        "de_DE": "Schweineschinken"
+      },
+      "nutrients": {
+        "energy": 103,
+        "fat": [
+          2,
+          {
+            "saturates": 0.8
+          }
+        ],
+        "protein": 20,
+        "carbohydrates": [
+          1,
+          {
+            "sugars": 0.9,
+            "polyols": null
+          }
+        ],
+        "fibres": null,
+        "sodium": 2.3
+      },
+      "ingredients": [
+        ["/ingredients/pork-meat"],
+        [
+          "/ingredients/salt",
+          "/ingredients/dextrose",
+          "/ingredients/diphosphates",
+          "/ingredients/antioxidants",
+          "/ingredients/spices",
+          "/ingredients/preservatives"
+        ]
+      ],
+      "traits": ["ANIMAL"]
     }
   },
 
@@ -1223,6 +1278,15 @@
       },
       "ingredients": {
         "/products/chicken-egg": 0.55
+      }
+    },
+    "pork-ham-slice": {
+      "name": {
+        "en_GB": "slice of pork ham",
+        "de_DE": "Scheibe Schweineschinken"
+      },
+      "ingredients": {
+        "/products/pork-ham": 0.29
       }
     }
   }
