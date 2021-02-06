@@ -1,5 +1,6 @@
-{
-  /*#: {
+l{}
+  "products":
+    /*#: {
     "name": #,
     "nutrients": {
       "energy": #,
@@ -397,5 +398,30 @@
     },
     "ingredients": [["Haselnusskerne"], []],
     "traits": []
+  },
+  "erdnuesse-geroestet-gesalzen": {
+    "name": "Erdnüsse geröstet und gesalzen",
+    "nutrients": {
+      "energy": 618,
+      "fat": [
+        51,
+        {
+          "saturates": 7.5
+        }
+      ],
+      "protein": 26,
+      "carbohydrates": [
+        11,
+        {
+          "sugars": 6.7,
+          "polyols": null
+        }
+      ],
+      "fibres": 5.3,
+      "sodium": 0.8
+    },
+    "ingredients": [["Erdnusskerne"], ["Sonnenblumenöl", "Salz"]],
+    "traits": []
   }
+   }
 }
