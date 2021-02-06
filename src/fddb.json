@@ -1094,6 +1094,45 @@
         ]
       ],
       "traits": []
+    },
+    "chicken-egg": {
+      "name": {
+        "en_GB": "chicken egg",
+        "de_DE": "Hühnerei"
+      },
+      "nutrients": {
+        "energy": 137,
+        "fat": [
+          9.3,
+          {
+            "saturates": 2.4
+          }
+        ],
+        "protein": 11.9,
+        "carbohydrates": [
+          1.5,
+          {
+            "sugars": 1.5,
+            "polyols": null
+          }
+        ],
+        "fibres": 0,
+        "sodium": 0.3
+      },
+      "ingredients": [
+        ["/ingredients/water"],
+        [
+          "/ingredients/sodium-carboxy-methyl-cellulose",
+          "/ingredients/xanthan-gum",
+          "/ingredients/natural-flavours",
+          "/ingredients/salt",
+          "/ingredients/lactic-acid",
+          "/ingredients/natural-colour-caramel",
+          "/ingredients/sucralose",
+          "/ingredients/preservatives"
+        ]
+      ],
+      "traits": []
     }
   },
 
@@ -1109,6 +1148,15 @@
         "/products/gold-linseed-flour": 0.15,
         "/products/soy-flour": 0.15,
         "/ingredients/water": 0.4
+      }
+    },
+    "chicken-egg-size-m": {
+      "name": {
+        "en_GB": "chicken egg size M",
+        "de_DE": "Hühnerei Größe M"
+      },
+      "ingredients": {
+        "/products/chicken-egg": 0.55
       }
     }
   }
