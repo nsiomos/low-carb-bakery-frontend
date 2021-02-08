@@ -428,26 +428,28 @@
         ]
       },
       "nutrients": {
-        "energy": 378,
-        "fat": [
-          3.3,
-          {
-            "saturates": 0.9
-          }
-        ],
-        "protein": 91,
-        "carbohydrates": [
-          1,
-          {
-            "sugars": 0,
-            "polyols": 0
-          }
-        ],
-        "fibres": null,
-        "sodium": 1.67
-      },
-      "ingredients": [["/ingredients/soy-protein-isolate"], []],
-      "traits": []
+        "values": {
+          "energy": 378,
+          "fat": [
+            3.3,
+            {
+              "saturates": 0.9
+            }
+          ],
+          "protein": 91,
+          "carbohydrates": [
+            1,
+            {
+              "sugars": 0,
+              "polyols": 0
+            }
+          ],
+          "fibres": null,
+          "sodium": 1.67
+        },
+        "ingredients": [["/ingredients/soy-protein-isolate"], []],
+        "traits": []
+      }
     },
     "cocoa-fiber": {
       "name": {
@@ -466,26 +468,28 @@
         ]
       },
       "nutrients": {
-        "energy": 258,
-        "fat": [
-          7.8,
-          {
-            "saturates": 4.5
-          }
-        ],
-        "protein": 17.3,
-        "carbohydrates": [
-          2.5,
-          {
-            "sugar": 0.5,
-            "polyols": null
-          }
-        ],
-        "fibres": 57,
-        "sodium": 0.001
-      },
-      "ingredients": [["/ingredients/cocoa-fiber"], []],
-      "traits": []
+        "values": {
+          "energy": 258,
+          "fat": [
+            7.8,
+            {
+              "saturates": 4.5
+            }
+          ],
+          "protein": 17.3,
+          "carbohydrates": [
+            2.5,
+            {
+              "sugar": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": 57,
+          "sodium": 0.001
+        },
+        "ingredients": [["/ingredients/cocoa-fiber"], []],
+        "traits": []
+      }
     },
     "sugar": {
       "name": {
@@ -504,26 +508,28 @@
         ]
       },
       "nutrients": {
-        "energy": 0,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
-        ],
-        "protein": 0,
-        "carbohydrates": [
-          100,
-          {
-            "sugars": 0,
-            "polyols": 100
-          }
-        ],
-        "fibres": 0,
-        "sodium": 0
-      },
-      "ingredients": [["/ingredients/erythritol", "/ingredients/stevia"], []],
-      "traits": []
+        "values": {
+          "energy": 0,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            100,
+            {
+              "sugars": 0,
+              "polyols": 100
+            }
+          ],
+          "fibres": 0,
+          "sodium": 0
+        },
+        "ingredients": [["/ingredients/erythritol", "/ingredients/stevia"], []],
+        "traits": []
+      }
     },
     "powdered-sugar": {
       "name": {
@@ -542,26 +548,28 @@
         ]
       },
       "nutrients": {
-        "energy": 0,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
-        ],
-        "protein": 0,
-        "carbohydrates": [
-          100,
-          {
-            "sugars": 0,
-            "polyols": 100
-          }
-        ],
-        "fibres": 0,
-        "sodium": 0
-      },
-      "ingredients": [["/ingredients/erythritol"], []],
-      "traits": []
+        "values": {
+          "energy": 0,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            100,
+            {
+              "sugars": 0,
+              "polyols": 100
+            }
+          ],
+          "fibres": 0,
+          "sodium": 0
+        },
+        "ingredients": [["/ingredients/erythritol"], []],
+        "traits": []
+      }
     },
     "wheat-gluten": {
       "name": {
@@ -580,26 +588,28 @@
         ]
       },
       "nutrients": {
-        "energy": 374.75,
-        "fat": [
-          2,
-          {
-            "saturates": 0.01
-          }
-        ],
-        "protein": 82.5,
-        "carbohydrates": [
-          5,
-          {
-            "sugars": 0.01,
-            "polyols": null
-          }
-        ],
-        "fibres": 4,
-        "sodium": 0.025
-      },
-      "ingredients": [["/ingredients/wheat-protein"], []],
-      "traits": ["GLUTEN"]
+        "values": {
+          "energy": 374.75,
+          "fat": [
+            2,
+            {
+              "saturates": 0.01
+            }
+          ],
+          "protein": 82.5,
+          "carbohydrates": [
+            5,
+            {
+              "sugars": 0.01,
+              "polyols": null
+            }
+          ],
+          "fibres": 4,
+          "sodium": 0.025
+        },
+        "ingredients": [["/ingredients/wheat-protein"], []],
+        "traits": ["GLUTEN"]
+      }
     },
     "oat-fiber": {
       "name": {
@@ -618,26 +628,28 @@
         ]
       },
       "nutrients": {
-        "energy": 187.14,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
-        ],
-        "protein": 0,
-        "carbohydrates": [
-          0,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 89,
-        "sodium": 0.1
-      },
-      "ingredients": [["/ingredients/oat-fiber"], []],
-      "traits": []
+        "values": {
+          "energy": 187.14,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 89,
+          "sodium": 0.1
+        },
+        "ingredients": [["/ingredients/oat-fiber"], []],
+        "traits": []
+      }
     },
     "gold-linseed-flour": {
       "name": {
@@ -656,26 +668,28 @@
         ]
       },
       "nutrients": {
-        "energy": 333.17,
-        "fat": [
-          10,
-          {
-            "saturates": 0.9
-          }
-        ],
-        "protein": 37,
-        "carbohydrates": [
-          0.1,
-          {
-            "sugars": 0.1,
-            "polyols": null
-          }
-        ],
-        "fibres": 48,
-        "sodium": 0.01
-      },
-      "ingredients": [["/ingredients/gold-linseed-flour"], []],
-      "traits": []
+        "values": {
+          "energy": 333.17,
+          "fat": [
+            10,
+            {
+              "saturates": 0.9
+            }
+          ],
+          "protein": 37,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0.1,
+              "polyols": null
+            }
+          ],
+          "fibres": 48,
+          "sodium": 0.01
+        },
+        "ingredients": [["/ingredients/gold-linseed-flour"], []],
+        "traits": []
+      }
     },
     "soy-flour": {
       "name": {
@@ -694,26 +708,28 @@
         ]
       },
       "nutrients": {
-        "energy": 400,
-        "fat": [
-          21,
-          {
-            "saturates": 3
-          }
-        ],
-        "protein": 41,
-        "carbohydrates": [
-          3,
-          {
-            "sugars": 1,
-            "polyols": null
-          }
-        ],
-        "fibres": 19,
-        "sodium": 0.025
-      },
-      "ingredients": [["/ingredients/soy-flour-full-fat"], []],
-      "traits": []
+        "values": {
+          "energy": 400,
+          "fat": [
+            21,
+            {
+              "saturates": 3
+            }
+          ],
+          "protein": 41,
+          "carbohydrates": [
+            3,
+            {
+              "sugars": 1,
+              "polyols": null
+            }
+          ],
+          "fibres": 19,
+          "sodium": 0.025
+        },
+        "ingredients": [["/ingredients/soy-flour-full-fat"], []],
+        "traits": []
+      }
     },
     "chocolate-pops": {
       "name": {
@@ -732,34 +748,36 @@
         ]
       },
       "nutrients": {
-        "energy": 206.02,
-        "fat": [
-          5.2,
-          {
-            "saturates": 1.8
-          }
+        "values": {
+          "energy": 206.02,
+          "fat": [
+            5.2,
+            {
+              "saturates": 1.8
+            }
+          ],
+          "protein": 20.2,
+          "carbohydrates": [
+            29.8,
+            {
+              "sugars": 0.4,
+              "polyols": 29.8
+            }
+          ],
+          "fibres": 28,
+          "sodium": 0.8
+        },
+        "ingredients": [
+          [
+            "/ingredients/pumpkin-seed-flour-de-oiled",
+            "/ingredients/cocoa-fiber",
+            "/ingredients/erythritol",
+            "/ingredients/stevia"
+          ],
+          ["/ingredients/psyllium-husks", "/ingredients/natural-flavours"]
         ],
-        "protein": 20.2,
-        "carbohydrates": [
-          29.8,
-          {
-            "sugars": 0.4,
-            "polyols": 29.8
-          }
-        ],
-        "fibres": 28,
-        "sodium": 0.8
-      },
-      "ingredients": [
-        [
-          "/ingredients/pumpkin-seed-flour-de-oiled",
-          "/ingredients/cocoa-fiber",
-          "/ingredients/erythritol",
-          "/ingredients/stevia"
-        ],
-        ["/ingredients/psyllium-husks", "/ingredients/natural-flavours"]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "soy-bran": {
       "name": {
@@ -778,26 +796,28 @@
         ]
       },
       "nutrients": {
-        "energy": 189.29,
-        "fat": [
-          2,
-          {
-            "saturates": 1
-          }
-        ],
-        "protein": 13,
-        "carbohydrates": [
-          1,
-          {
-            "sugars": 0.5,
-            "polyols": null
-          }
-        ],
-        "fibres": 60,
-        "sodium": 0.1
-      },
-      "ingredients": [["/ingredients/soy-bran"], []],
-      "traits": []
+        "values": {
+          "energy": 189.29,
+          "fat": [
+            2,
+            {
+              "saturates": 1
+            }
+          ],
+          "protein": 13,
+          "carbohydrates": [
+            1,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": 60,
+          "sodium": 0.1
+        },
+        "ingredients": [["/ingredients/soy-bran"], []],
+        "traits": []
+      }
     },
     "soy-granules": {
       "name": {
@@ -816,29 +836,31 @@
         ]
       },
       "nutrients": {
-        "energy": 308,
-        "fat": [
-          2.3,
-          {
-            "saturates": 0.6
-          }
+        "values": {
+          "energy": 308,
+          "fat": [
+            2.3,
+            {
+              "saturates": 0.6
+            }
+          ],
+          "protein": 49,
+          "carbohydrates": [
+            11,
+            {
+              "sugars": 11,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0.01
+        },
+        "ingredients": [
+          ["/ingredients/soy-flour-de-oiled"],
+          ["/ingredients/water"]
         ],
-        "protein": 49,
-        "carbohydrates": [
-          11,
-          {
-            "sugars": 11,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 0.01
-      },
-      "ingredients": [
-        ["/ingredients/soy-flour-de-oiled"],
-        ["/ingredients/water"]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "soy-flakes": {
       "name": {
@@ -858,26 +880,28 @@
         ]
       },
       "nutrients": {
-        "energy": 403,
-        "fat": [
-          21,
-          {
-            "saturates": 2.6
-          }
-        ],
-        "protein": 41,
-        "carbohydrates": [
-          3.1,
-          {
-            "sugars": 3.1,
-            "polyols": null
-          }
-        ],
-        "fibres": 19,
-        "sodium": 0.01
-      },
-      "ingredients": [["/ingredients/soy-flakes"], []],
-      "traits": []
+        "values": {
+          "energy": 403,
+          "fat": [
+            21,
+            {
+              "saturates": 2.6
+            }
+          ],
+          "protein": 41,
+          "carbohydrates": [
+            3.1,
+            {
+              "sugars": 3.1,
+              "polyols": null
+            }
+          ],
+          "fibres": 19,
+          "sodium": 0.01
+        },
+        "ingredients": [["/ingredients/soy-flakes"], []],
+        "traits": []
+      }
     },
     "pumpkin-seeds": {
       "name": {
@@ -896,26 +920,28 @@
         ]
       },
       "nutrients": {
-        "energy": 590,
-        "fat": [
-          47,
-          {
-            "saturates": 8.9
-          }
-        ],
-        "protein": 37,
-        "carbohydrates": [
-          1.4,
-          {
-            "sugars": 1.4,
-            "polyols": null
-          }
-        ],
-        "fibres": 6.6,
-        "sodium": 0.03
-      },
-      "ingredients": [["/ingredients/pumpkin-seeds"], []],
-      "traits": []
+        "values": {
+          "energy": 590,
+          "fat": [
+            47,
+            {
+              "saturates": 8.9
+            }
+          ],
+          "protein": 37,
+          "carbohydrates": [
+            1.4,
+            {
+              "sugars": 1.4,
+              "polyols": null
+            }
+          ],
+          "fibres": 6.6,
+          "sodium": 0.03
+        },
+        "ingredients": [["/ingredients/pumpkin-seeds"], []],
+        "traits": []
+      }
     },
     "pumpkin-seeds-roasted-salted": {
       "name": {
@@ -934,26 +960,28 @@
         ]
       },
       "nutrients": {
-        "energy": 582,
-        "fat": [
-          46,
-          {
-            "saturates": 9.4
-          }
-        ],
-        "protein": 37,
-        "carbohydrates": [
-          2,
-          {
-            "sugars": 1.4,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 1.3
-      },
-      "ingredients": [["/ingredients/pumpkin-seeds"], ["/ingredients/salt"]],
-      "traits": []
+        "values": {
+          "energy": 582,
+          "fat": [
+            46,
+            {
+              "saturates": 9.4
+            }
+          ],
+          "protein": 37,
+          "carbohydrates": [
+            2,
+            {
+              "sugars": 1.4,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 1.3
+        },
+        "ingredients": [["/ingredients/pumpkin-seeds"], ["/ingredients/salt"]],
+        "traits": []
+      }
     },
     "almonds-whole": {
       "name": {
@@ -972,26 +1000,28 @@
         ]
       },
       "nutrients": {
-        "energy": 609,
-        "fat": [
-          51.6,
-          {
-            "saturates": 5.0
-          }
-        ],
-        "protein": 24.7,
-        "carbohydrates": [
-          4.7,
-          {
-            "sugars": 4.5,
-            "polyols": null
-          }
-        ],
-        "fibres": 13.5,
-        "sodium": 0.01
-      },
-      "ingredients": [["/ingredients/almonds"], []],
-      "traits": []
+        "values": {
+          "energy": 609,
+          "fat": [
+            51.6,
+            {
+              "saturates": 5.0
+            }
+          ],
+          "protein": 24.7,
+          "carbohydrates": [
+            4.7,
+            {
+              "sugars": 4.5,
+              "polyols": null
+            }
+          ],
+          "fibres": 13.5,
+          "sodium": 0.01
+        },
+        "ingredients": [["/ingredients/almonds"], []],
+        "traits": []
+      }
     },
     "almonds-sliced": {
       "name": {
@@ -1010,7 +1040,7 @@
           }
         ]
       },
-      "ref": "../almonds-whole"
+      "nutrientsRef": "../almonds-whole"
     },
     "almonds-flakes": {
       "name": {
@@ -1028,7 +1058,7 @@
           }
         ]
       },
-      "ref": "../almonds-whole"
+      "nutrientsRef": "../almonds-whole"
     },
     "almonds-ground": {
       "name": {
@@ -1046,7 +1076,7 @@
           }
         ]
       },
-      "ref": "../almonds-whole"
+      "nutrientsRef": "../almonds-whole"
     },
     "hazelnut-kernels-whole": {
       "name": {
@@ -1065,26 +1095,28 @@
         ]
       },
       "nutrients": {
-        "energy": 656,
-        "fat": [
-          61,
-          {
-            "saturates": 5
-          }
-        ],
-        "protein": 14,
-        "carbohydrates": [
-          7.3,
-          {
-            "sugars": 4.7,
-            "polyols": null
-          }
-        ],
-        "fibres": 11,
-        "sodium": 0.01
-      },
-      "ingredients": [["/ingredients/hazelnut-kernels"], []],
-      "traits": []
+        "values": {
+          "energy": 656,
+          "fat": [
+            61,
+            {
+              "saturates": 5
+            }
+          ],
+          "protein": 14,
+          "carbohydrates": [
+            7.3,
+            {
+              "sugars": 4.7,
+              "polyols": null
+            }
+          ],
+          "fibres": 11,
+          "sodium": 0.01
+        },
+        "ingredients": [["/ingredients/hazelnut-kernels"], []],
+        "traits": []
+      }
     },
     "hazelnut-kernels-sliced": {
       "name": {
@@ -1103,7 +1135,7 @@
           }
         ]
       },
-      "ref": "../hazelnut-kernels-whole"
+      "nutrientsRef": "../hazelnut-kernels-whole"
     },
     "hazelnut-kernels-flakes": {
       "name": {
@@ -1122,7 +1154,7 @@
           }
         ]
       },
-      "ref": "../hazelnut-kernels-whole"
+      "nutrientsRef": "../hazelnut-kernels-whole"
     },
     "hazelnut-kernels-ground": {
       "name": {
@@ -1140,7 +1172,7 @@
           }
         ]
       },
-      "ref": "../hazelnut-kernels-whole"
+      "nutrientsRef": "../hazelnut-kernels-whole"
     },
     "peanuts-roasted-salted": {
       "name": {
@@ -1148,29 +1180,31 @@
         "de_DE": "Erdnüsse geröstet und gesalzen"
       },
       "nutrients": {
-        "energy": 618,
-        "fat": [
-          51,
-          {
-            "saturates": 7.5
-          }
+        "values": {
+          "energy": 618,
+          "fat": [
+            51,
+            {
+              "saturates": 7.5
+            }
+          ],
+          "protein": 26,
+          "carbohydrates": [
+            11,
+            {
+              "sugars": 6.7,
+              "polyols": null
+            }
+          ],
+          "fibres": 5.3,
+          "sodium": 0.8
+        },
+        "ingredients": [
+          ["/ingredients/peanut-kernels"],
+          ["/ingredients/sunflower-oil", "/ingredients/salt"]
         ],
-        "protein": 26,
-        "carbohydrates": [
-          11,
-          {
-            "sugars": 6.7,
-            "polyols": null
-          }
-        ],
-        "fibres": 5.3,
-        "sodium": 0.8
-      },
-      "ingredients": [
-        ["/ingredients/peanut-kernels"],
-        ["/ingredients/sunflower-oil", "/ingredients/salt"]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "gold-linseed-crushed": {
       "name": {
@@ -1178,26 +1212,28 @@
         "de_DE": "Goldleinsamen geschrotet"
       },
       "nutrients": {
-        "energy": 533,
-        "fat": [
-          43,
-          {
-            "saturates": 4.7
-          }
-        ],
-        "protein": 20,
-        "carbohydrates": [
-          1,
-          {
-            "sugars": 0.9,
-            "polyols": null
-          }
-        ],
-        "fibres": 31,
-        "sodium": 0.15
-      },
-      "ingredients": [["/ingredients/gold-linseed"], []],
-      "traits": []
+        "values": {
+          "energy": 533,
+          "fat": [
+            43,
+            {
+              "saturates": 4.7
+            }
+          ],
+          "protein": 20,
+          "carbohydrates": [
+            1,
+            {
+              "sugars": 0.9,
+              "polyols": null
+            }
+          ],
+          "fibres": 31,
+          "sodium": 0.15
+        },
+        "ingredients": [["/ingredients/gold-linseed"], []],
+        "traits": []
+      }
     },
     "cashew-peanut-mix-hot-chili": {
       "name": {
@@ -1205,40 +1241,42 @@
         "de_DE": "Cashew-Erdnuss-Mix, Hot Chili"
       },
       "nutrients": {
-        "energy": 612,
-        "fat": [
-          50,
-          {
-            "saturates": 8.4
-          }
+        "values": {
+          "energy": 612,
+          "fat": [
+            50,
+            {
+              "saturates": 8.4
+            }
+          ],
+          "protein": 21,
+          "carbohydrates": [
+            17,
+            {
+              "sugars": 5.9,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 1.6
+        },
+        "ingredients": [
+          ["/ingredients/cashew-nuts", "/ingredients/peanut-kernels"],
+          [
+            "/ingredients/sunflower-oil",
+            "/ingredients/salt",
+            "/ingredients/spices-chilli",
+            "/ingredients/sugar",
+            "/ingredients/yeast-extract",
+            "/ingredients/onion-powder",
+            "/ingredients/flavours",
+            "/ingredients/garlic-powder",
+            "/ingredients/paprika-extract",
+            "/ingredients/citric-acid"
+          ]
         ],
-        "protein": 21,
-        "carbohydrates": [
-          17,
-          {
-            "sugars": 5.9,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 1.6
-      },
-      "ingredients": [
-        ["/ingredients/cashew-nuts", "/ingredients/peanut-kernels"],
-        [
-          "/ingredients/sunflower-oil",
-          "/ingredients/salt",
-          "/ingredients/spices-chilli",
-          "/ingredients/sugar",
-          "/ingredients/yeast-extract",
-          "/ingredients/onion-powder",
-          "/ingredients/flavours",
-          "/ingredients/garlic-powder",
-          "/ingredients/paprika-extract",
-          "/ingredients/citric-acid"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "almond-drink": {
       "name": {
@@ -1246,34 +1284,36 @@
         "de_DE": "Mandeldrink"
       },
       "nutrients": {
-        "energy": 14,
-        "fat": [
-          1.3,
-          {
-            "saturates": 0.1
-          }
+        "values": {
+          "energy": 14,
+          "fat": [
+            1.3,
+            {
+              "saturates": 0.1
+            }
+          ],
+          "protein": 0.5,
+          "carbohydrates": [
+            0.5,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0.13
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/almonds",
+            "/ingredients/salt",
+            "/ingredients/calcium-citrate",
+            "/ingredients/gellan-gum"
+          ]
         ],
-        "protein": 0.5,
-        "carbohydrates": [
-          0.5,
-          {
-            "sugars": 0.5,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 0.13
-      },
-      "ingredients": [
-        ["/ingredients/water"],
-        [
-          "/ingredients/almonds",
-          "/ingredients/salt",
-          "/ingredients/calcium-citrate",
-          "/ingredients/gellan-gum"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "skyr": {
       "name": {
@@ -1281,35 +1321,37 @@
         "de_DE": "Skyr"
       },
       "nutrients": {
-        "energy": 60,
-        "fat": [
-          3.3,
-          {
-            "saturates": 0.6
-          }
-        ],
-        "protein": 5.8,
-        "carbohydrates": [
-          0,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 1.3,
-        "sodium": 0.33
-      },
-      "ingredients": [["/ingredients/water", "/ingredients/soy"], []],
-      "traits": [
-        "/ingredients/pektins",
-        "/ingredients/calcium-citrate",
-        "/ingredients/sodium-citrate",
-        "/ingredients/citric-acid",
-        "/ingredients/natural-flavours",
-        "/ingredients/antioxidants",
-        "/ingredients/salt",
-        "/ingredients/yogurt-cultures"
-      ]
+        "values": {
+          "energy": 60,
+          "fat": [
+            3.3,
+            {
+              "saturates": 0.6
+            }
+          ],
+          "protein": 5.8,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 1.3,
+          "sodium": 0.33
+        },
+        "ingredients": [["/ingredients/water", "/ingredients/soy"], []],
+        "traits": [
+          "/ingredients/pektins",
+          "/ingredients/calcium-citrate",
+          "/ingredients/sodium-citrate",
+          "/ingredients/citric-acid",
+          "/ingredients/natural-flavours",
+          "/ingredients/antioxidants",
+          "/ingredients/salt",
+          "/ingredients/yogurt-cultures"
+        ]
+      }
     },
     "syrup-maple": {
       "name": {
@@ -1317,38 +1359,40 @@
         "de_DE": "Ahornsirup"
       },
       "nutrients": {
-        "energy": 4,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
+        "values": {
+          "energy": 4,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 1.2,
+          "sodium": 0.55
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/sodium-carboxy-methyl-cellulose",
+            "/ingredients/xanthan-gum",
+            "/ingredients/natural-flavours",
+            "/ingredients/salt",
+            "/ingredients/natural-colour-caramel",
+            "/ingredients/lactic-acid",
+            "/ingredients/sucralose",
+            "/ingredients/preservatives"
+          ]
         ],
-        "protein": 0,
-        "carbohydrates": [
-          0,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 1.2,
-        "sodium": 0.55
-      },
-      "ingredients": [
-        ["/ingredients/water"],
-        [
-          "/ingredients/sodium-carboxy-methyl-cellulose",
-          "/ingredients/xanthan-gum",
-          "/ingredients/natural-flavours",
-          "/ingredients/salt",
-          "/ingredients/natural-colour-caramel",
-          "/ingredients/lactic-acid",
-          "/ingredients/sucralose",
-          "/ingredients/preservatives"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "syrup-vanilla": {
       "name": {
@@ -1356,38 +1400,40 @@
         "de_DE": "Vanillesirup"
       },
       "nutrients": {
-        "energy": 4,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
+        "values": {
+          "energy": 4,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 1.1,
+          "sodium": 0.55
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/sodium-carboxy-methyl-cellulose",
+            "/ingredients/xanthan-gum",
+            "/ingredients/natural-flavours",
+            "/ingredients/salt",
+            "/ingredients/lactic-acid",
+            "/ingredients/sucralose",
+            "/ingredients/preservatives",
+            "/ingredients/natural-colour-caramel"
+          ]
         ],
-        "protein": 0,
-        "carbohydrates": [
-          0,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 1.1,
-        "sodium": 0.55
-      },
-      "ingredients": [
-        ["/ingredients/water"],
-        [
-          "/ingredients/sodium-carboxy-methyl-cellulose",
-          "/ingredients/xanthan-gum",
-          "/ingredients/natural-flavours",
-          "/ingredients/salt",
-          "/ingredients/lactic-acid",
-          "/ingredients/sucralose",
-          "/ingredients/preservatives",
-          "/ingredients/natural-colour-caramel"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "syrup-honey": {
       "name": {
@@ -1395,38 +1441,40 @@
         "de_DE": "Honigsirup"
       },
       "nutrients": {
-        "energy": 3,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
+        "values": {
+          "energy": 3,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 1.1,
+          "sodium": 0.3
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/sodium-carboxy-methyl-cellulose",
+            "/ingredients/xanthan-gum",
+            "/ingredients/natural-flavours",
+            "/ingredients/salt",
+            "/ingredients/lactic-acid",
+            "/ingredients/sucralose",
+            "/ingredients/natural-colour-caramel",
+            "/ingredients/preservatives"
+          ]
         ],
-        "protein": 0,
-        "carbohydrates": [
-          0.1,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 1.1,
-        "sodium": 0.3
-      },
-      "ingredients": [
-        ["/ingredients/water"],
-        [
-          "/ingredients/sodium-carboxy-methyl-cellulose",
-          "/ingredients/xanthan-gum",
-          "/ingredients/natural-flavours",
-          "/ingredients/salt",
-          "/ingredients/lactic-acid",
-          "/ingredients/sucralose",
-          "/ingredients/natural-colour-caramel",
-          "/ingredients/preservatives"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "syrup-chocolate-caramel": {
       "name": {
@@ -1434,38 +1482,40 @@
         "de_DE": "Schokolade-Karamell-Sirup"
       },
       "nutrients": {
-        "energy": 6,
-        "fat": [
-          0,
-          {
-            "saturates": 0
-          }
+        "values": {
+          "energy": 6,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": 1.2,
+          "sodium": 0.56
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/sodium-carboxy-methyl-cellulose",
+            "/ingredients/xanthan-gum",
+            "/ingredients/natural-flavours",
+            "/ingredients/salt",
+            "/ingredients/lactic-acid",
+            "/ingredients/natural-colour-caramel",
+            "/ingredients/sucralose",
+            "/ingredients/preservatives"
+          ]
         ],
-        "protein": 0,
-        "carbohydrates": [
-          0,
-          {
-            "sugars": 0,
-            "polyols": null
-          }
-        ],
-        "fibres": 1.2,
-        "sodium": 0.56
-      },
-      "ingredients": [
-        ["/ingredients/water"],
-        [
-          "/ingredients/sodium-carboxy-methyl-cellulose",
-          "/ingredients/xanthan-gum",
-          "/ingredients/natural-flavours",
-          "/ingredients/salt",
-          "/ingredients/lactic-acid",
-          "/ingredients/natural-colour-caramel",
-          "/ingredients/sucralose",
-          "/ingredients/preservatives"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "chicken-egg": {
       "name": {
@@ -1473,26 +1523,28 @@
         "de_DE": "Hühnerei"
       },
       "nutrients": {
-        "energy": 137,
-        "fat": [
-          9.3,
-          {
-            "saturates": 2.4
-          }
-        ],
-        "protein": 11.9,
-        "carbohydrates": [
-          1.5,
-          {
-            "sugars": 1.5,
-            "polyols": null
-          }
-        ],
-        "fibres": 0,
-        "sodium": 0.3
-      },
-      "ingredients": [["/ingredients/chicken-egg"], []],
-      "traits": ["ANIMAL_PRODUCT"]
+        "values": {
+          "energy": 137,
+          "fat": [
+            9.3,
+            {
+              "saturates": 2.4
+            }
+          ],
+          "protein": 11.9,
+          "carbohydrates": [
+            1.5,
+            {
+              "sugars": 1.5,
+              "polyols": null
+            }
+          ],
+          "fibres": 0,
+          "sodium": 0.3
+        },
+        "ingredients": [["/ingredients/chicken-egg"], []],
+        "traits": ["ANIMAL_PRODUCT"]
+      }
     },
     "margarine": {
       "name": {
@@ -1500,41 +1552,43 @@
         "de_DE": "Margarine"
       },
       "nutrients": {
-        "energy": 265,
-        "fat": [
-          30,
-          {
-            "saturates": 6
-          }
+        "values": {
+          "energy": 265,
+          "fat": [
+            30,
+            {
+              "saturates": 6
+            }
+          ],
+          "protein": 0.5,
+          "carbohydrates": [
+            0.5,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0.12
+        },
+        "ingredients": [
+          [
+            "/ingredients/water",
+            "/ingredients/sunflower-oil",
+            "/ingredients/linseed-oil",
+            "/ingredients/rapeseed-oil"
+          ],
+          [
+            "/ingredients/palm-fat",
+            "/ingredients/edible-fatty-acids",
+            "/ingredients/salt",
+            "/ingredients/citric-acid",
+            "/ingredients/flavours",
+            "/ingredients/colour-carotene"
+          ]
         ],
-        "protein": 0.5,
-        "carbohydrates": [
-          0.5,
-          {
-            "sugars": 0.5,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 0.12
-      },
-      "ingredients": [
-        [
-          "/ingredients/water",
-          "/ingredients/sunflower-oil",
-          "/ingredients/linseed-oil",
-          "/ingredients/rapeseed-oil"
-        ],
-        [
-          "/ingredients/palm-fat",
-          "/ingredients/edible-fatty-acids",
-          "/ingredients/salt",
-          "/ingredients/citric-acid",
-          "/ingredients/flavours",
-          "/ingredients/colour-carotene"
-        ]
-      ],
-      "traits": []
+        "traits": []
+      }
     },
     "pork-ham": {
       "name": {
@@ -1542,36 +1596,38 @@
         "de_DE": "Schweineschinken"
       },
       "nutrients": {
-        "energy": 103,
-        "fat": [
-          2,
-          {
-            "saturates": 0.8
-          }
+        "values": {
+          "energy": 103,
+          "fat": [
+            2,
+            {
+              "saturates": 0.8
+            }
+          ],
+          "protein": 20,
+          "carbohydrates": [
+            1,
+            {
+              "sugars": 0.9,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 2.3
+        },
+        "ingredients": [
+          ["/ingredients/pork-meat"],
+          [
+            "/ingredients/salt",
+            "/ingredients/dextrose",
+            "/ingredients/diphosphates",
+            "/ingredients/antioxidants",
+            "/ingredients/spices",
+            "/ingredients/preservatives"
+          ]
         ],
-        "protein": 20,
-        "carbohydrates": [
-          1,
-          {
-            "sugars": 0.9,
-            "polyols": null
-          }
-        ],
-        "fibres": null,
-        "sodium": 2.3
-      },
-      "ingredients": [
-        ["/ingredients/pork-meat"],
-        [
-          "/ingredients/salt",
-          "/ingredients/dextrose",
-          "/ingredients/diphosphates",
-          "/ingredients/antioxidants",
-          "/ingredients/spices",
-          "/ingredients/preservatives"
-        ]
-      ],
-      "traits": ["ANIMAL"]
+        "traits": ["ANIMAL"]
+      }
     },
     "slicedsliced-cheese": {
       "name": {
@@ -1579,26 +1635,28 @@
         "de_DE": "Käseaufschnitt"
       },
       "nutrients": {
-        "energy": 261,
-        "fat": [
-          16,
-          {
-            "saturates": 11
-          }
-        ],
-        "protein": 28,
-        "carbohydrates": [
-          0.1,
-          {
-            "sugars": 0.1,
-            "polyols": null
-          }
-        ],
-        "fibres": 0,
-        "sodium": 1.8
-      },
-      "ingredients": [[], []],
-      "traits": ["ANIMAL_PRODUCT"]
+        "values": {
+          "energy": 261,
+          "fat": [
+            16,
+            {
+              "saturates": 11
+            }
+          ],
+          "protein": 28,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0.1,
+              "polyols": null
+            }
+          ],
+          "fibres": 0,
+          "sodium": 1.8
+        },
+        "ingredients": [[], []],
+        "traits": ["ANIMAL_PRODUCT"]
+      }
     }
   },
 
