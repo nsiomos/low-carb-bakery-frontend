@@ -412,17 +412,20 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 2500,
             "price": 30.71,
-            "shop": "/shops/amazon"
+            "shop": "/shops/amazon",
+            "url": "https://www.amazon.de/BULK-POWDERS-Soja-Protein-Isolat-2-5Kg/dp/B00HF63M1G"
           },
           {
+            "weight": 0.2,
             "amount": 1000,
             "price": 15.99,
-            "shop": "/shops/bulk"
+            "shop": "/shops/bulk",
+            "url": "https://www.bulk.com/de/soja-protein-isolat-90-de.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 378,
@@ -454,12 +457,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 500,
             "price": 4.9,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/special/kakao-fasern.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 258,
@@ -491,12 +495,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 1000,
             "price": 9.9,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/sussstoffe/carb-zucker.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 0,
@@ -523,18 +528,18 @@
     "powdered-sugar": {
       "name": {
         "en_GB": "powdered sugar",
-        "de_DE": "Puderzucker",
-        "shop": "/shops/l-carb-shop"
+        "de_DE": "Puderzucker"
       },
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 500,
             "price": 6.5,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/amazon",
+            "url": "https://www.amazon.de/Carb-Puderzucker-Erythritol-500-g/dp/B06XY5XHTS"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 0,
@@ -566,12 +571,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 750,
             "price": 3.9,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/mehle/carb-weizenkleber.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 374.75,
@@ -603,12 +609,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 750,
             "price": 5.5,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/mehle/carb-haferfasern.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 187.14,
@@ -640,12 +647,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 750,
             "price": 6,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/mehle/carb-gold-leinsamenmehl-entoelt-750g.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 333.17,
@@ -677,12 +685,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 500,
             "price": 2.9,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/mehle/carb-bio-sojamehl-500-g.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 400,
@@ -714,12 +723,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 330,
             "price": 4.9,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/special/carb-schokopop-330g.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 206.02,
@@ -759,12 +769,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 330,
             "price": 2.5,
-            "shop": "/shops/l-carb-shop"
+            "shop": "/shops/l-carb-shop",
+            "url": "https://www.l-carb-shop.de/index.php/special/carb-bio-sojakleie-330g.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 189.29,
@@ -796,12 +807,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 500,
             "price": 2.98,
-            "shop": "/shops/kaufland"
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.soja-granulat-vg-500g.article_id=1284832.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 308,
@@ -836,13 +848,14 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 500,
             "price": 2.29,
             "shop": "/shops/edeka",
+            "url": null,
             "flags": ["VERIFY"]
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 403,
@@ -874,12 +887,13 @@
       "purchase": {
         "sources": [
           {
+            "weight": 1,
             "amount": 200,
             "price": 1.99,
-            "shop": "/shops/kaufland"
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.kuerbiskerne-200g.article_id=1092245.html"
           }
-        ],
-        "primary": "../sources/0"
+        ]
       },
       "nutrients": {
         "energy": 590,
@@ -908,6 +922,17 @@
         "en_GB": "roasted and salted pumpkin seeds",
         "de_DE": "Kürbiskerne geröstet und gesalzen"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.99,
+            "shop": "/shops/aldi-sued",
+            "url": "https://www.aldi-nord.de/angebote/aktion-fr-22-01/steirische-kuerbiskerne-8168-2-0.article.html"
+          }
+        ]
+      },
       "nutrients": {
         "energy": 582,
         "fat": [
@@ -934,6 +959,17 @@
       "name": {
         "en_GB": "whole almonds",
         "de_DE": "Ganze Mandeln"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 2.19,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.mandeln-200g.article_id=1099877.html"
+          }
+        ]
       },
       "nutrients": {
         "energy": 609,
@@ -962,12 +998,35 @@
         "en_GB": "sliced almonds",
         "de_DE": "Mandeln gehobelt"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 100,
+            "price": 0.99,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-mandeln-gestiftelt-100g",
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
       "ref": "../almonds-whole"
     },
     "almonds-flakes": {
       "name": {
         "en_GB": "almond flakes",
         "de_DE": "Mandelflocken"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 100,
+            "price": 0.99,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.mandeln-blanchiert-gehobelt-100g.article_id=1099880.html"
+          }
+        ]
       },
       "ref": "../almonds-whole"
     },
@@ -976,12 +1035,34 @@
         "en_GB": "ground almonds",
         "de_DE": "Mandeln gemahlen"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 100,
+            "price": 0.99,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.mandeln-blanchiert-gemahlen-100g.article_id=1106449.html"
+          }
+        ]
+      },
       "ref": "../almonds-whole"
     },
     "hazelnut-kernels-whole": {
       "name": {
         "en_GB": "whole hazelnut kernels",
         "de_DE": "Ganze Haselnusskerne"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 2.49,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.haselnuesse-200g.article_id=1190738.html"
+          }
+        ]
       },
       "nutrients": {
         "energy": 656,
@@ -1010,6 +1091,18 @@
         "en_GB": "sliced hazelnut kernels",
         "de_DE": "Haselnusskerne gehobelt"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.95,
+            "shop": "/shops/kaufland",
+            "url": null,
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
       "ref": "../hazelnut-kernels-whole"
     },
     "hazelnut-kernels-flakes": {
@@ -1017,12 +1110,35 @@
         "en_GB": "hazelnut flakes",
         "de_DE": "Haselnussflocken"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.95,
+            "shop": "/shops/kaufland",
+            "url": null,
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
       "ref": "../hazelnut-kernels-whole"
     },
     "hazelnut-kernels-ground": {
       "name": {
         "en_GB": "ground hazelnut kernels",
         "de_DE": "Haselnusskerne gemahlen"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.95,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.haselnusskerne-gemahlen-200g.article_id=1099872.html"
+          }
+        ]
       },
       "ref": "../hazelnut-kernels-whole"
     },
