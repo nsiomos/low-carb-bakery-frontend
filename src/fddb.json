@@ -1,4 +1,69 @@
 {
+  "shops": {
+    "amazon": {
+      "name": {
+        "en_GB": "amazon",
+        "de_DE": "Amazon"
+      },
+      "url": "https://www.amazon.de",
+      "purchaseLocal": false,
+      "purchaseOnline": true
+    },
+    "l-carb-shop": {
+      "name": {
+        "en_GB": "l-carb-shop",
+        "de_DE": "l-carb-Shop"
+      },
+      "url": "https://www.l-carb-shop.de",
+      "purchaseLocal": false,
+      "purchaseOnline": true
+    },
+    "bulk": {
+      "name": {
+        "en_GB": "bulk",
+        "de_DE": "bulk"
+      },
+      "url": "https://www.bulk.com",
+      "purchaseLocal": false,
+      "purchaseOnline": true
+    },
+    "kaufland": {
+      "name": {
+        "en_GB": "Kaufland",
+        "de_DE": "Kaufland"
+      },
+      "url": "https://www.kaufland.de",
+      "purchaseLocal": true,
+      "purchaseOnline": false
+    },
+    "edeka": {
+      "name": {
+        "en_GB": "Edeka",
+        "de_DE": "Edeka"
+      },
+      "url": "https://www.edeka.de/",
+      "purchaseLocal": true,
+      "purchaseOnline": false
+    },
+    "aldi-sued": {
+      "name": {
+        "en_GB": "Aldi Süd",
+        "de_DE": "Aldi Süd"
+      },
+      "url": "https://www.aldi-sued.de",
+      "purchaseLocal": true,
+      "purchaseOnline": false
+    },
+    "lidl": {
+      "name": {
+        "en_GB": "Lidl",
+        "de_DE": "Lidl"
+      },
+      "url": "https://www.lidl.de/",
+      "purchaseLocal": true,
+      "purchaseOnline": false
+    }
+  },
   "ingredients": {
     "water": {
       "name": {
@@ -344,6 +409,21 @@
         "en_GB": "soy protein isolate",
         "de_DE": "Sojaproteinisolat"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 2500,
+            "price": 30.71,
+            "shop": "/shops/amazon"
+          },
+          {
+            "amount": 1000,
+            "price": 15.99,
+            "shop": "/shops/bulk"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 378,
         "fat": [
@@ -370,6 +450,16 @@
       "name": {
         "en_GB": "cocoa fiber",
         "de_DE": "Kakaofasern"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 500,
+            "price": 4.9,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 258,
@@ -398,6 +488,16 @@
         "en_GB": "sugar",
         "de_DE": "Zucker"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 1000,
+            "price": 9.9,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 0,
         "fat": [
@@ -423,7 +523,18 @@
     "powdered-sugar": {
       "name": {
         "en_GB": "powdered sugar",
-        "de_DE": "Puderzucker"
+        "de_DE": "Puderzucker",
+        "shop": "/shops/l-carb-shop"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 500,
+            "price": 6.5,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 0,
@@ -452,6 +563,16 @@
         "en_GB": "wheat gluten",
         "de_DE": "Weizenkleber"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 750,
+            "price": 3.9,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 374.75,
         "fat": [
@@ -478,6 +599,16 @@
       "name": {
         "en_GB": "oat fiber",
         "de_DE": "Haferfasern"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 750,
+            "price": 5.5,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 187.14,
@@ -506,6 +637,16 @@
         "en_GB": "gold linseed flour",
         "de_DE": "Goldleinsamenmehl"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 750,
+            "price": 6,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 333.17,
         "fat": [
@@ -533,6 +674,16 @@
         "en_GB": "soy flour",
         "de_DE": "Sojamehl"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 500,
+            "price": 2.9,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 400,
         "fat": [
@@ -559,6 +710,16 @@
       "name": {
         "en_GB": "chocolate pops",
         "de_DE": "Schoko-Pops"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 330,
+            "price": 4.9,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 206.02,
@@ -595,6 +756,16 @@
         "en_GB": "soy bran",
         "de_DE": "Sojakleie"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 330,
+            "price": 2.5,
+            "shop": "/shops/l-carb-shop"
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 189.29,
         "fat": [
@@ -621,6 +792,16 @@
       "name": {
         "en_GB": "soy granules",
         "de_DE": "Sojagranulat"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 500,
+            "price": 2.98,
+            "shop": "/shops/kaufland"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 308,
@@ -652,6 +833,17 @@
         "en_GB": "soy flakes",
         "de_DE": "Sojaflocken"
       },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 500,
+            "price": 2.29,
+            "shop": "/shops/edeka",
+            "flags": ["VERIFY"]
+          }
+        ],
+        "primary": "../sources/0"
+      },
       "nutrients": {
         "energy": 403,
         "fat": [
@@ -678,6 +870,16 @@
       "name": {
         "en_GB": "pumpkin seeds",
         "de_DE": "Kürbiskerne"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "amount": 200,
+            "price": 1.99,
+            "shop": "/shops/kaufland"
+          }
+        ],
+        "primary": "../sources/0"
       },
       "nutrients": {
         "energy": 590,
@@ -1254,6 +1456,33 @@
         ]
       ],
       "traits": ["ANIMAL"]
+    },
+    "slicedsliced-cheese": {
+      "name": {
+        "en_GB": "slicedsliced cheese",
+        "de_DE": "Käseaufschnitt"
+      },
+      "nutrients": {
+        "energy": 261,
+        "fat": [
+          16,
+          {
+            "saturates": 11
+          }
+        ],
+        "protein": 28,
+        "carbohydrates": [
+          0.1,
+          {
+            "sugars": 0.1,
+            "polyols": null
+          }
+        ],
+        "fibres": 0,
+        "sodium": 1.8
+      },
+      "ingredients": [[], []],
+      "traits": ["ANIMAL_PRODUCT"]
     }
   },
 
