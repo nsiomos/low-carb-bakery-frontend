@@ -1551,6 +1551,25 @@
         "en_GB": "margarine",
         "de_DE": "Margarine"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-delikatess-hinterkochschinken-200g-qs",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.kochhinterschinken-200g.article_id=0918122.html"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 265,
@@ -1629,9 +1648,9 @@
         "traits": ["ANIMAL"]
       }
     },
-    "slicedsliced-cheese": {
+    "sliced-cheese": {
       "name": {
-        "en_GB": "slicedsliced cheese",
+        "en_GB": "sliced cheese",
         "de_DE": "Käseaufschnitt"
       },
       "nutrients": {
