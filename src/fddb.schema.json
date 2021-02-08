@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://json-schema.org/draft-07/output/schema#",
+  "description": "nicolesiomos.com low-carb bakery fddb schema",
+  "default": null,
+  "type": "object",
+  "definitions": {
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "required": ["en_GB", "de_DE"]
+    },
+    "shop": {
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "url": { "type": "string" },
+        "purchaseLocal": { "type": "boolean" },
+        "purchaseOnline": { "type": "boolean" }
+      },
+      "required": ["name", "url", "purchaseLocal", "purchaseOnline"]
+    },
+    "ingredient": {
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" }
+      },
+      "required": ["name"]
+    },
+    "purchaseSource": {
+      "type": "object",
+      "properties": {
+        "weight": { "type": "number" },
+        "amount": { "type": "number" },
+        "price": { "type": "number" },
+        "shop": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "required": ["weight", "amount", "price", "shop", "url"]
+    },
+    "purchase": {
+      "type": "object",
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/purchaseSource" },
+          "minItems": 1
+        }
+      },
+      "required": ["sources"]
+    },
+    "fatDetails": {
+      "type": "object",
+      "properties": {
+        "saturates": { "type": "number" }
+      },
+      "required": ["saturates"]
+    },
+    "carbohydratesDetails": {
+      "type": "object",
+      "properties": {
+        "sugars": { "type": "number" },
+        "polyols": { "type": "number" }
+      },
+      "required": ["sugars"]
+    },
+    "nutrientValues": {
+      "type": "object",
+      "properties": {
+        "energy": { "type": "number" },
+        "fat": {
+          "type": "array",
+          "items": [
+            { "type": "number" },
+            { "$ref": "#/definitions/fatDetails" }
+          ],
+          "minItems": 2,
+          "additionalItems": false
+        },
+        "protein": { "type": "number" },
+        "carbohydrates": {
+          "type": "array",
+          "items": [
+            { "type": "number" },
+            { "$ref": "#/definitions/carbohydratesDetails" }
+          ],
+          "minItems": 2,
+          "additionalItems": false
+        },
+        "fibres": { "type": "number" },
+        "sodium": { "type": "number" }
+      },
+      "required": [
+        "energy",
+        "fat",
+        "protein",
+        "carbohydrates",
+        "fibres",
+        "sodium"
+      ]
+    },
+    "nutrientsTrait": {
+      "type": "string",
+      "enum": ["GLUTEN", "LACTOSE", "ANIMAL_PRODUCT", "MEAT"]
+    },
+    "nutrients": {
+      "type": "object",
+      "properties": {
+        "values": { "$ref": "#/definitions/nutrientValues" },
+        "ingredients": {
+          "type": "array",
+          "items": [
+            { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+            { "type": "array", "items": { "type": "string" } }
+          ],
+          "minItems": 2,
+          "additionalItems": false
+        },
+        "traits": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nutrientsTrait" }
+        }
+      },
+      "required": ["values", "ingredients", "traits"]
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "purchase": { "$ref": "#/definitions/purchase" },
+        "nutrients": { "$ref": "#/definitions/nutrients" }
+      },
+      "required": ["name", "purchase", "nutrients"]
+    },
+    "recipe": {
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "ingredients": {
+          "type": "object",
+          "additionalProperties": { "type": "number" },
+          "minProperties": 1
+        }
+      },
+      "required": ["name", "ingredients"]
+    }
+  },
+  "properties": {
+    "shops": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/shop"
+      }
+    },
+    "ingredients": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/ingredient"
+      }
+    },
+    "products": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/product"
+      }
+    },
+    "recipes": {
+      "type": "object"
+    }
+  },
+  "required": ["shops", "ingredients", "products", "recipes"]
+}
