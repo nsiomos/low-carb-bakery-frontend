@@ -120,7 +120,8 @@
         },
         "traits": {
           "type": "array",
-          "items": { "$ref": "#/definitions/nutrientsTrait" }
+          "items": { "$ref": "#/definitions/nutrientsTrait" },
+          "uniqueItems": true
         }
       },
       "required": ["values", "ingredients", "traits"]
