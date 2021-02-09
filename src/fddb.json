@@ -119,6 +119,24 @@
         "de_DE": "Sucralose"
       }
     },
+    "cyclamate": {
+      "name": {
+        "en_GB": "cyclamate",
+        "de_DE": "Cyclamat"
+      }
+    },
+    "saccharine": {
+      "name": {
+        "en_GB": "saccharine",
+        "de_DE": "Saccharin"
+      }
+    },
+    "aspartame": {
+      "name": {
+        "en_GB": "aspartame",
+        "de_DE": "Aspartam"
+      }
+    },
     "yeast-extract": {
       "name": {
         "en_GB": "yeast extract",
@@ -395,10 +413,82 @@
         "de_DE": "Hühnerei"
       }
     },
+    "milk": {
+      "name": {
+        "en_GB": "milk",
+        "de_DE": "Milch"
+      }
+    },
+    "skimmed-milk": {
+      "name": {
+        "en_GB": "skimmed milk",
+        "de_DE": "Magermilch"
+      }
+    },
+    "sour-milk-curd": {
+      "name": {
+        "en_GB": "sour milk curd",
+        "de_DE": "Sauermilchquark"
+      }
+    },
+    "cheese": {
+      "name": {
+        "en_GB": "cheese",
+        "de_DE": "Käse"
+      }
+    },
     "pork-meat": {
       "name": {
         "en_GB": "pork meat",
         "de_DE": "Schweinefleisch"
+      }
+    },
+    "alaska-salmon": {
+      "name": {
+        "en_GB": "alaska salmon",
+        "de_DE": "Alaska-Seelachs"
+      }
+    },
+    "raspberry": {
+      "name": {
+        "en_GB": "raspberry",
+        "de_DE": "Himbeere"
+      }
+    },
+    "sour-cherry": {
+      "name": {
+        "en_GB": "sour cherry",
+        "de_DE": "Sauerkirsche"
+      }
+    },
+    "strawberry": {
+      "name": {
+        "en_GB": "strawberry",
+        "de_DE": "Erdbeere"
+      }
+    },
+    "blackberry": {
+      "name": {
+        "en_GB": "blackberry",
+        "de_DE": "Brombeere"
+      }
+    },
+    "currant": {
+      "name": {
+        "en_GB": "currant",
+        "de_DE": "Johannisbeere"
+      }
+    },
+    "blueberry": {
+      "name": {
+        "en_GB": "blueberry",
+        "de_DE": "Heidelbeere"
+      }
+    },
+    "carbonic-acid": {
+      "name": {
+        "en_GB": "carbonic acid",
+        "de_DE": "Kohlensäure"
       }
     }
   },
@@ -480,7 +570,7 @@
           "carbohydrates": [
             2.5,
             {
-              "sugar": 0.5,
+              "sugars": 0.5,
               "polyols": null
             }
           ],
@@ -1278,43 +1368,6 @@
         "traits": []
       }
     },
-    "almond-drink": {
-      "name": {
-        "en_GB": "almond drink",
-        "de_DE": "Mandeldrink"
-      },
-      "nutrients": {
-        "values": {
-          "energy": 14,
-          "fat": [
-            1.3,
-            {
-              "saturates": 0.1
-            }
-          ],
-          "protein": 0.5,
-          "carbohydrates": [
-            0.5,
-            {
-              "sugars": 0.5,
-              "polyols": null
-            }
-          ],
-          "fibres": null,
-          "sodium": 0.13
-        },
-        "ingredients": [
-          ["/ingredients/water"],
-          [
-            "/ingredients/almonds",
-            "/ingredients/salt",
-            "/ingredients/calcium-citrate",
-            "/ingredients/gellan-gum"
-          ]
-        ],
-        "traits": []
-      }
-    },
     "skyr": {
       "name": {
         "en_GB": "skyr",
@@ -1614,6 +1667,25 @@
         "en_GB": "pork ham",
         "de_DE": "Schweineschinken"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-delikatess-hinterkochschinken-200g-qs",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.kochhinterschinken-200g.article_id=0918122.html"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 103,
@@ -1648,10 +1720,190 @@
         "traits": ["ANIMAL"]
       }
     },
+    "harzer-cheese": {
+      "name": {
+        "en_GB": "harzer cheese",
+        "de_DE": "Harzer Käse"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-harzer-roller-aromabox-200g-vlog-1",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.harzer-roller-200g.article_id=1146610.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 125,
+          "fat": [
+            0.5,
+            {
+              "saturates": 0.2
+            }
+          ],
+          "protein": 30,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0.0,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 3.4
+        },
+        "ingredients": [["/ingredients/sour-mikl-curd"], []],
+        "traits": ["ANIMAL_PRODUCT", "LACTOSE"]
+      }
+    },
+    "shepherds-cheese": {
+      "name": {
+        "en_GB": "shepherd's cheese",
+        "de_DE": "Hirtenkäse"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 250,
+            "price": 1.19,
+            "shop": "/shops/aldi",
+            "url": null,
+            "flags": ["VERIFY", "INCOMPLETE"]
+          },
+          {
+            "weight": 1,
+            "amount": 250,
+            "price": 1.19,
+            "shop": "/shops/lidl",
+            "url": null,
+            "flags": ["VERIFY", "INCOMPLETE"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.hirtenkaese-light-halbfettstufe-250g.article_id=1259134.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 180,
+          "fat": [
+            9.5,
+            {
+              "saturates": 6.3
+            }
+          ],
+          "protein": 23,
+          "carbohydrates": [
+            0.5,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 3.5
+        },
+        "ingredients": [["/ingredients/milk"], []],
+        "traits": ["ANIMAL_PRODUCT", "LACTOSE"]
+      }
+    },
+    "soft-cheese": {
+      "name": {
+        "en_GB": "soft cheese",
+        "de_DE": "Weichkäse"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/aldi",
+            "url": null,
+            "flags": ["VERIFY", "INCOMPLETE"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/lidl",
+            "url": null,
+            "flags": ["VERIFY", "INCOMPLETE"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": null,
+            "flags": ["VERIFY", "INCOMPLETE"]
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 224,
+          "fat": [
+            16,
+            {
+              "saturates": 9
+            }
+          ],
+          "protein": 20,
+          "carbohydrates": [
+            0.5,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 1.4
+        },
+        "ingredients": [["/ingredients/milk"], []],
+        "traits": ["ANIMAL_PRODUCT", "LACTOSE"]
+      }
+    },
     "sliced-cheese": {
       "name": {
         "en_GB": "sliced cheese",
         "de_DE": "Käseaufschnitt"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-gouda-leicht-30-scheiben-200g-vlog",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.49,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.kaeseaufschnitt-light-scheiben-250g.article_id=1124074.html"
+          }
+        ]
       },
       "nutrients": {
         "values": {
@@ -1670,11 +1922,317 @@
               "polyols": null
             }
           ],
-          "fibres": 0,
+          "fibres": null,
           "sodium": 1.8
         },
-        "ingredients": [[], []],
+        "ingredients": [["/ingredients/milk"], []],
+        "traits": ["ANIMAL_PRODUCT", "LACTOSE"]
+      }
+    },
+    "processed-cheese": {
+      "name": {
+        "en_GB": "processed cheese",
+        "de_DE": "Schmelzkäse"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 250,
+            "price": 1.19,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-gouda-leicht-30-scheiben-200g-vlog",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 250,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.schmelzkaesescheiben-25-fett-i-tr-250g.article_id=1129024.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 204,
+          "fat": [
+            12,
+            {
+              "saturates": 8
+            }
+          ],
+          "protein": 17,
+          "carbohydrates": [
+            6.7,
+            {
+              "sugars": 6.7,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 3.6
+        },
+        "ingredients": [
+          ["/ingredients/cheese", "/ingredients/skimmed-milk"],
+          []
+        ],
+        "traits": ["ANIMAL_PRODUCT", "LACTOSE"]
+      }
+    },
+    "sea-salmon-mus": {
+      "name": {
+        "en_GB": "sea salmon mus",
+        "de_DE": "Seelachsmus"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 125,
+            "price": 1.19,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/msc-gut-guenstig-alaska-seelachs-schnitzel-lachsersatz-in-rapsoel-125g",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 125,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": null,
+            "flags": ["INCOMPLETE"]
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 338,
+          "fat": [
+            32.5,
+            {
+              "saturates": 2.6
+            }
+          ],
+          "protein": 11.4,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 7.9
+        },
+        "ingredients": [
+          ["/ingredients/alaska-salmon", "/ingredients/rapeseed-oil"],
+          []
+        ],
         "traits": ["ANIMAL_PRODUCT"]
+      }
+    },
+    "berry-mix": {
+      "name": {
+        "en_GB": "berry mix",
+        "de_DE": "Beerenmischung"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 750,
+            "price": 2.49,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-beerenmischung-750g",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 750,
+            "price": 2.49,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.beerenmischung-sauerkirschen-750g.article_id=1141480.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 56,
+          "fat": [
+            1.1,
+            {
+              "saturates": 0.1
+            }
+          ],
+          "protein": 2.2,
+          "carbohydrates": [
+            5.9,
+            {
+              "sugars": 5.0,
+              "polyols": null
+            }
+          ],
+          "fibres": 6.9,
+          "sodium": 0
+        },
+        "ingredients": [
+          [
+            "/ingredients/raspberry",
+            "/ingredients/sour-cherry",
+            "/ingredients/strawberry",
+            "/ingredients/blackberry",
+            "/ingredients/currant",
+            "/ingredients/blueberry"
+          ],
+          []
+        ],
+        "traits": []
+      }
+    },
+    "sweetener--liquid": {
+      "name": {
+        "en_GB": "liquid sweetener",
+        "de_DE": "Flüssigsüßstoff"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 300,
+            "price": 0.99,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/gut-guenstig-feine-suesse-fluessig-300ml",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 300,
+            "price": 0.99,
+            "shop": "/shops/kaufland",
+            "url": null,
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 1,
+          "fat": [
+            0,
+            {
+              "saturates": 0.1
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0.1,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 1.3
+        },
+        "ingredients": [
+          [
+            "/ingredients/water",
+            "/ingredients/cyclamate",
+            "ingredients/saccharine"
+          ],
+          []
+        ],
+        "traits": []
+      }
+    },
+    "almond-drink": {
+      "name": {
+        "en_GB": "almond drink",
+        "de_DE": "Mandeldrink"
+      },
+      "nutrients": {
+        "values": {
+          "energy": 14,
+          "fat": [
+            1.3,
+            {
+              "saturates": 0.1
+            }
+          ],
+          "protein": 0.5,
+          "carbohydrates": [
+            0.5,
+            {
+              "sugars": 0.5,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0.13
+        },
+        "ingredients": [
+          ["/ingredients/water"],
+          [
+            "/ingredients/almonds",
+            "/ingredients/salt",
+            "/ingredients/calcium-citrate",
+            "/ingredients/gellan-gum"
+          ]
+        ],
+        "traits": []
+      }
+    },
+    "pepsi-max-lemon": {
+      "name": {
+        "en_GB": "pepsi max lemon",
+        "de_DE": "Pepsi Max Zitrone"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 9000,
+            "price": 5.94,
+            "shop": "/shops/edeka",
+            "url": null,
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 9000,
+            "price": 5.94,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.cola-max-6x1-5l.article_id=2000798.html",
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 0.5,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0.1,
+          "carbohydrates": [
+            0.1,
+            {
+              "sugars": 0.0,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0.03
+        },
+        "ingredients": [
+          ["/ingredients/water", "/ingredients/carbonic-acid"],
+          []
+        ],
+        "traits": []
       }
     }
   },
@@ -1685,31 +2243,27 @@
         "en_GB": "flour",
         "de_DE": "Mehl"
       },
-      "ingredients": {
-        "/products/wheat-gluten": 0.15,
-        "/products/oat-fiber": 0.15,
-        "/products/gold-linseed-flour": 0.15,
-        "/products/soy-flour": 0.15,
-        "/ingredients/water": 0.4
-      }
+      "ingredients": [
+        ["/products/wheat-gluten", 0.15],
+        ["/products/oat-fiber", 0.15],
+        ["/products/gold-linseed-flour", 0.15],
+        ["/products/soy-flour", 0.15],
+        ["/ingredients/water", 0.4]
+      ]
     },
     "chicken-egg-size-m": {
       "name": {
         "en_GB": "chicken egg size M",
         "de_DE": "Hühnerei Größe M"
       },
-      "ingredients": {
-        "/products/chicken-egg": 0.55
-      }
+      "ingredients": [["/products/chicken-egg", 0.55]]
     },
     "pork-ham-slice": {
       "name": {
         "en_GB": "slice of pork ham",
         "de_DE": "Scheibe Schweineschinken"
       },
-      "ingredients": {
-        "/products/pork-ham": 0.29
-      }
+      "ingredients": [["/products/pork-ham", 0.29]]
     }
   }
 }

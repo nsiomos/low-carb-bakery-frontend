@@ -5,29 +5,40 @@
   "default": null,
   "type": "object",
   "definitions": {
+    "pointer": {
+      "type": "string",
+      "pattern": "^((/|./|../)*[a-z-]*)*$"
+    },
     "name": {
       "type": "object",
-      "additionalProperties": {
-        "type": "string"
+      "patternProperties": {
+        "^[a-z]{2}_[A-Z]{2}$": { "type": "string" }
       },
+      "additionalProperties": false,
       "required": ["en_GB", "de_DE"]
     },
     "shop": {
       "type": "object",
       "properties": {
         "name": { "$ref": "#/definitions/name" },
-        "url": { "type": "string" },
+        "url": { "type": ["string", "null"] },
         "purchaseLocal": { "type": "boolean" },
         "purchaseOnline": { "type": "boolean" }
       },
-      "required": ["name", "url", "purchaseLocal", "purchaseOnline"]
+      "required": ["name", "url", "purchaseLocal", "purchaseOnline"],
+      "additionalProperties": false
     },
     "ingredient": {
       "type": "object",
       "properties": {
         "name": { "$ref": "#/definitions/name" }
       },
-      "required": ["name"]
+      "required": ["name"],
+      "additionalProperties": false
+    },
+    "purchaseSourceFlag": {
+      "type": "string",
+      "enum": ["VERIFY", "INCOMPLETE"]
     },
     "purchaseSource": {
       "type": "object",
@@ -35,10 +46,16 @@
         "weight": { "type": "number" },
         "amount": { "type": "number" },
         "price": { "type": "number" },
-        "shop": { "type": "string" },
-        "url": { "type": "string" }
+        "shop": { "$ref": "#/definitions/pointer" },
+        "url": { "type": ["string", "null"] },
+        "flags": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/purchaseSourceFlag" },
+          "uniqueItems": true
+        }
       },
-      "required": ["weight", "amount", "price", "shop", "url"]
+      "required": ["weight", "amount", "price", "shop", "url"],
+      "additionalProperties": false
     },
     "purchase": {
       "type": "object",
@@ -49,22 +66,25 @@
           "minItems": 1
         }
       },
-      "required": ["sources"]
+      "required": ["sources"],
+      "additionalProperties": false
     },
     "fatDetails": {
       "type": "object",
       "properties": {
         "saturates": { "type": "number" }
       },
-      "required": ["saturates"]
+      "required": ["saturates"],
+      "additionalProperties": false
     },
     "carbohydratesDetails": {
       "type": "object",
       "properties": {
         "sugars": { "type": "number" },
-        "polyols": { "type": "number" }
+        "polyols": { "type": ["number", "null"] }
       },
-      "required": ["sugars"]
+      "required": ["sugars", "polyols"],
+      "additionalProperties": false
     },
     "nutrientValues": {
       "type": "object",
@@ -89,7 +109,7 @@
           "minItems": 2,
           "additionalItems": false
         },
-        "fibres": { "type": "number" },
+        "fibres": { "type": ["number", "null"] },
         "sodium": { "type": "number" }
       },
       "required": [
@@ -99,7 +119,8 @@
         "carbohydrates",
         "fibres",
         "sodium"
-      ]
+      ],
+      "additionalProperties": false
     },
     "nutrientsTrait": {
       "type": "string",
@@ -112,8 +133,12 @@
         "ingredients": {
           "type": "array",
           "items": [
-            { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-            { "type": "array", "items": { "type": "string" } }
+            {
+              "type": "array",
+              "items": { "$ref": "#/definitions/pointer" },
+              "minItems": 1
+            },
+            { "type": "array", "items": { "$ref": "#/definitions/pointer" } }
           ],
           "minItems": 2,
           "additionalItems": false
@@ -124,52 +149,75 @@
           "uniqueItems": true
         }
       },
-      "required": ["values", "ingredients", "traits"]
+      "required": ["values", "ingredients", "traits"],
+      "additionalProperties": false
     },
     "product": {
       "type": "object",
       "properties": {
         "name": { "$ref": "#/definitions/name" },
         "purchase": { "$ref": "#/definitions/purchase" },
-        "nutrients": { "$ref": "#/definitions/nutrients" }
+        "nutrients": { "$ref": "#/definitions/nutrients" },
+        "nutrientsRef": { "$ref": "#/definitions/pointer" }
       },
-      "required": ["name", "purchase", "nutrients"]
+      "oneOf": [
+        { "required": ["name", "purchase", "nutrients"] },
+        { "required": ["name", "purchase", "nutrientsRef"] }
+      ],
+      "additionalProperties": false
     },
     "recipe": {
       "type": "object",
       "properties": {
         "name": { "$ref": "#/definitions/name" },
         "ingredients": {
-          "type": "object",
-          "additionalProperties": { "type": "number" },
-          "minProperties": 1
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": [
+              { "$ref": "#/definitions/pointer" },
+              { "type": "number" }
+            ],
+            "minItems": 2,
+            "additionalItems": false
+          },
+          "minItems": 1
         }
       },
-      "required": ["name", "ingredients"]
+      "required": ["name", "ingredients"],
+      "additionalProperties": false
     }
   },
   "properties": {
     "shops": {
       "type": "object",
-      "additionalProperties": {
-        "$ref": "#/definitions/shop"
-      }
+      "patternProperties": {
+        "^[a-z-]+$": { "$ref": "#/definitions/shop" }
+      },
+      "additionalProperties": false
     },
     "ingredients": {
       "type": "object",
-      "additionalProperties": {
-        "$ref": "#/definitions/ingredient"
-      }
+      "patternProperties": {
+        "^[a-z-]+$": { "$ref": "#/definitions/ingredient" }
+      },
+      "additionalProperties": false
     },
     "products": {
       "type": "object",
-      "additionalProperties": {
-        "$ref": "#/definitions/product"
-      }
+      "patternProperties": {
+        "^[a-z-]+$": { "$ref": "#/definitions/product" }
+      },
+      "additionalProperties": false
     },
     "recipes": {
-      "type": "object"
+      "type": "object",
+      "patternProperties": {
+        "^[a-z-]+$": { "$ref": "#/definitions/recipe" }
+      },
+      "additionalProperties": false
     }
   },
+  "additionalProperties": false,
   "required": ["shops", "ingredients", "products", "recipes"]
 }
