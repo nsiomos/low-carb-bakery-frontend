@@ -1693,22 +1693,59 @@
           }
         ]
       },
-      "protein-bread": {
-        "name": {
-          "en_GB": "protein bread",
-          "de_DE": "Eiweißbrot"
-        },
-        "purchase": {
-          "sources": [
+      "nutrients": {
+        "values": {
+          "energy": 412,
+          "fat": [
+            14,
             {
-              "weight": 1,
-              "amount": 500,
-              "price": 1.99,
-              "shop": "/shops/edeka",
-              "url": "https://www.edeka.de/de/produkte/edeka-eiweissbrot-500g"
+              "saturates": 2.8
             }
-          ]
+          ],
+          "protein": 26,
+          "carbohydrates": [
+            42,
+            {
+              "sugars": 3.2,
+              "polyols": null
+            }
+          ],
+          "fibres": 7,
+          "sodium": 1
         },
+        "ingredients": [
+          [
+            "/ingredients/water",
+            "/ingredients/whole-grain-rye-flour",
+            "/ingredients/linseed",
+            "/ingredients/wheat-protein",
+            "/ingredients/soy",
+            "/ingredients/soy-flour",
+            "/ingredients/wheat-bran",
+            "/ingredients/sunflower-seeds",
+            "/ingredients/sesame"
+          ],
+          []
+        ],
+        "traits": ["GLUTEN"]
+      }
+    },
+    "protein-bread": {
+      "name": {
+        "en_GB": "protein bread",
+        "de_DE": "Eiweißbrot"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 500,
+            "price": 1.99,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/edeka-eiweissbrot-500g"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 256,
@@ -2266,7 +2303,7 @@
         "traits": []
       }
     },
-    "sweetener--liquid": {
+    "sweetener-liquid": {
       "name": {
         "en_GB": "liquid sweetener",
         "de_DE": "Flüssigsüßstoff"
