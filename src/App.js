@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Ajv from "ajv";
+import TestReact from "./TestReact";
 
 export default function App() {
   var fddbSchema = require("./fddb.schema.json");
@@ -15,6 +16,7 @@ export default function App() {
     <div className="App">
       <h1>Hello low-carb-bakery frontend</h1>
       <h2>Start editing to see some magic happen!</h2>
+      <TestReact value="react test" />
     </div>
   );
 }
