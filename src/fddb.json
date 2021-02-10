@@ -27,6 +27,15 @@
       "purchaseLocal": false,
       "purchaseOnline": true
     },
+    "knusperladen": {
+      "name": {
+        "en_GB": "knusperladen",
+        "de_DE": "Knusperladen"
+      },
+      "url": "https://www.knusperladen.de/",
+      "purchaseLocal": false,
+      "purchaseOnline": true
+    },
     "kaufland": {
       "name": {
         "en_GB": "Kaufland",
@@ -287,6 +296,12 @@
         "de_DE": "Soja"
       }
     },
+    "soy-flour": {
+      "name": {
+        "en_GB": "soy flour",
+        "de_DE": "Sojamehl"
+      }
+    },
     "soy-flour-full-fat": {
       "name": {
         "en_GB": "soy flour full fat",
@@ -377,6 +392,12 @@
         "de_DE": "Flohsamenschalen"
       }
     },
+    "sunflower-seeds": {
+      "name": {
+        "en_GB": "sunflower seeds",
+        "de_DE": "Sonnenblumenkerne"
+      }
+    },
     "pumpkin-seeds": {
       "name": {
         "en_GB": "pumpkin seeds",
@@ -405,6 +426,30 @@
       "name": {
         "en_GB": "cashew nuts",
         "de_DE": "Cashewkerne"
+      }
+    },
+    "wheat-bran": {
+      "name": {
+        "en_GB": "wheat bran",
+        "de_DE": "Weizenkleie"
+      }
+    },
+    "wheat-flour": {
+      "name": {
+        "en_GB": "wheat flour",
+        "de_DE": "Weizenmehl"
+      }
+    },
+    "whole-grain-rye-flour": {
+      "name": {
+        "en_GB": "whole grain rye flour",
+        "de_DE": "Roggenvollkornmehl"
+      }
+    },
+    "sesame": {
+      "name": {
+        "en_GB": "sesame",
+        "de_DE": "Sesam"
       }
     },
     "chicken-egg": {
@@ -1568,6 +1613,82 @@
           ]
         ],
         "traits": []
+      }
+    },
+    "crispbread": {
+      "name": {
+        "en_GB": "crispbread",
+        "de_DE": "Knäckebrot"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 0,
+            "amount": 1400,
+            "price": 18.0,
+            "shop": "/shops/knusperladen",
+            "url": "https://www.knusperladen.de/shop/filinchen-lower-carb-das-abendbrot-14er-karton/"
+          },
+          {
+            "weight": 1,
+            "amount": 100,
+            "price": 1.19,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.abendbrot-low-carb-100g.article_id=0875222.html"
+          }
+        ]
+      },
+      "protein-bread": {
+        "name": {
+          "en_GB": "protein bread",
+          "de_DE": "Eiweißbrot"
+        },
+        "purchase": {
+          "sources": [
+            {
+              "weight": 1,
+              "amount": 500,
+              "price": 1.99,
+              "shop": "/shops/edeka",
+              "url": "https://www.edeka.de/de/produkte/edeka-eiweissbrot-500g"
+            }
+          ]
+        },
+      "nutrients": {
+        "values": {
+          "energy": 256,
+          "fat": [
+            13,
+            {
+              "saturates": 1.7
+            }
+          ],
+          "protein": 21.2,
+          "carbohydrates": [
+            6.5,
+            {
+              "sugars": 2.3,
+              "polyols": null
+            }
+          ],
+          "fibres": 14.2,
+          "sodium": 1.1
+        },
+        "ingredients": [
+          [
+            "/ingredients/water",
+            "/ingredients/whole-grain-rye-flour",
+            "/ingredients/linseed",
+            "/ingredients/wheat-protein",
+            "/ingredients/soy",
+            "/ingredients/soy-flour",
+            "/ingredients/wheat-bran",
+            "/ingredients/sunflower-seeds",
+            "/ingredients/sesame"
+          ],
+          []
+        ],
+        "traits": ["GLUTEN"]
       }
     },
     "chicken-egg": {
