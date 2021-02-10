@@ -3,6 +3,9 @@ import "./styles.css";
 import Ajv from "ajv";
 import TestReact from "./TestReact";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
+
 export default function App() {
   var fddbSchema = require("./fddb.schema.json");
   var fddb = require("./fddb.json");
@@ -17,6 +20,7 @@ export default function App() {
       <h1>Hello low-carb-bakery frontend</h1>
       <h2>Start editing to see some magic happen!</h2>
       <TestReact value="react test" />
+      <Button variant="danger">react-bootstrap!</Button>
     </div>
   );
 }
