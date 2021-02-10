@@ -2672,7 +2672,7 @@
         "de_DE": "Portion streichzarte Diätschokolade"
       },
       "ingredients": [
-        ["/recipes/chocolate-firm-diet-portion"],
+        ["/recipes/chocolate-firm-diet-portion", 1],
         ["/products/almond-drink", 5]
       ]
     },
@@ -2682,7 +2682,7 @@
         "de_DE": "Portion cremige Diätschokolade"
       },
       "ingredients": [
-        ["/recipes/chocolate-firm-diet-portion"],
+        ["/recipes/chocolate-firm-diet-portion", 1],
         ["/products/almond-drink", 10]
       ]
     },
@@ -2705,7 +2705,7 @@
         "de_DE": "Portion streichzarte Halbfettschokolade"
       },
       "ingredients": [
-        ["/recipes/chocolate-firm-semi-fat-portion"],
+        ["/recipes/chocolate-firm-semi-fat-portion", 1],
         ["/products/almond-drink", 5]
       ]
     },
@@ -2737,7 +2737,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Sojagranulat"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/soy-granules", 5]
       ]
     },
@@ -2747,7 +2747,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Sojaflocken"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/soy-flakes", 10]
       ]
     },
@@ -2757,7 +2757,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Sonnenblumenkernen"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/sunflower-seeds", 10]
       ]
     },
@@ -2767,7 +2767,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Kürbiskernen"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/pumpkin-flakes", 10]
       ]
     },
@@ -2777,7 +2777,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Erdnüssen"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/peanuts-roasted-salted", 10]
       ]
     },
@@ -2787,7 +2787,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Nussmix Hot Chili"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/cashew-peanut-mix-hot-chilli", 10]
       ]
     },
@@ -2797,7 +2797,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Mandelflocken"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/almond-flakes", 10]
       ]
     },
@@ -2807,7 +2807,7 @@
         "de_DE": "Portion streichzarte Diätschokolade mit Haselnussflocken"
       },
       "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/recipes/chocolate-spreadable-diet-portion", 1],
         ["/products/hazelnut-flakes", 10]
       ]
     }
