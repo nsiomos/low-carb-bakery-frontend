@@ -27,6 +27,15 @@
       "purchaseLocal": false,
       "purchaseOnline": true
     },
+    "myprotein": {
+      "name": {
+        "en_GB": "myprotein",
+        "de_DE": "myprotein"
+      },
+      "url": "https://de.myprotein.com/",
+      "purchaseLocal": false,
+      "purchaseOnline": true
+    },
     "knusperladen": {
       "name": {
         "en_GB": "knusperladen",
@@ -78,6 +87,12 @@
       "name": {
         "en_GB": "water",
         "de_DE": "Wasser"
+      }
+    },
+    "olive-oil": {
+      "name": {
+        "en_GB": "olive oil",
+        "de_DE": "Olivenöl"
       }
     },
     "salt": {
@@ -2359,6 +2374,53 @@
         "traits": []
       }
     },
+    "flavour-drops": {
+      "name": {
+        "en_GB": "flavour-drops",
+        "de_DE": "Aromatropfen"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 100,
+            "price": 10.19,
+            "shop": "/shops/myprotein",
+            "url": "https://de.myprotein.com/sporternahrung/flavdrops/10530471.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 0,
+          "fat": [
+            0,
+            {
+              "saturates": 0
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0
+        },
+        "ingredients": [
+          [
+            "/ingredients/water",
+            "/ingredients/natural-flavours",
+            "/ingredients/sucralose"
+          ],
+          []
+        ],
+        "traits": []
+      }
+    },
     "almond-drink": {
       "name": {
         "en_GB": "almond drink",
@@ -2447,6 +2509,35 @@
         ],
         "traits": []
       }
+    },
+    "olive-oil": {
+      "name": {
+        "en_GB": "olive oil",
+        "de_DE": "Olivenöl"
+      },
+      "nutrients": {
+        "values": {
+          "energy": 822,
+          "fat": [
+            91.3,
+            {
+              "saturates": 13
+            }
+          ],
+          "protein": 0,
+          "carbohydrates": [
+            0,
+            {
+              "sugars": 0,
+              "polyols": null
+            }
+          ],
+          "fibres": null,
+          "sodium": 0
+        },
+        "ingredients": [["/ingredients/olive-oil"], []],
+        "traits": []
+      }
     }
   },
 
@@ -2464,6 +2555,34 @@
         ["/ingredients/water", 0.4]
       ]
     },
+    "sweetener-liquid-drop": {
+      "name": {
+        "en_GB": "drop of liquid sweetener",
+        "de_DE": "Tropfen Flüssigsüßstoff"
+      },
+      "ingredients": [["/products/sweetener-liquid", 0.0005]]
+    },
+    "flavour-drops-drop": {
+      "name": {
+        "en_GB": "drop of flavour drops",
+        "de_DE": "Tropfen Aromatropfen"
+      },
+      "ingredients": [["/products/flavour-drops", 0.0005]]
+    },
+    "crispbread-slice": {
+      "name": {
+        "en_GB": "crispbread slice",
+        "de_DE": "Knäckebrotscheibe"
+      },
+      "ingredients": [["/products/crispbread", 0.05]]
+    },
+    "protein-bread-slice": {
+      "name": {
+        "en_GB": "protein bread slice",
+        "de_DE": "Eiweißbrotscheibe"
+      },
+      "ingredients": [["/products/protein-bread", 0.55]]
+    },
     "chicken-egg-size-m": {
       "name": {
         "en_GB": "chicken egg size M",
@@ -2471,12 +2590,158 @@
       },
       "ingredients": [["/products/chicken-egg", 0.55]]
     },
+    "harzer-cheese-piece": {
+      "name": {
+        "en_GB": "piece of harzer cheese",
+        "de_DE": "Stück Harzkäse"
+      },
+      "ingredients": [["/products/harzer-cheese", 0.5]]
+    },
+    "shepherds-cheese-small-cube": {
+      "name": {
+        "en_GB": "small cube of shepherd's cheese",
+        "de_DE": "kleiner Würfel Hirtenkäse"
+      },
+      "ingredients": [["/products/shepherds-cheese", 41.67]]
+    },
+    "shepherds-cheese-stick": {
+      "name": {
+        "en_GB": "stick of shepherd's cheese",
+        "de_DE": "Riegel Hirtenkäse"
+      },
+      "ingredients": [["/products/shepherds-cheese", 83.33]]
+    },
+    "shepherds-cheese-big-cube": {
+      "name": {
+        "en_GB": "big cube of shepherd's cheese",
+        "de_DE": "großer Würfel Hirtenkäse"
+      },
+      "ingredients": [["/products/shepherds-cheese", 166.67]]
+    },
+    "shepherds-cheese-piece": {
+      "name": {
+        "en_GB": "piece of shepherd's cheese",
+        "de_DE": "Stück Hirtenkäse"
+      },
+      "ingredients": [["/products/shepherds-cheese", 250]]
+    },
+    "sliced-cheese-slice": {
+      "name": {
+        "en_GB": "slice of sliced cheese",
+        "de_DE": "Scheibe Käseaufschnitt"
+      },
+      "ingredients": [["/products/sliced-cheese", 35.71]]
+    },
+    "sliced-cheese-half-slice": {
+      "name": {
+        "en_GB": "half slice of sliced cheese",
+        "de_DE": "halbe Scheibe Käseaufschnitt"
+      },
+      "ingredients": [["/products/sliced-cheese", 17.86]]
+    },
+    "processed-cheese-slice": {
+      "name": {
+        "en_GB": "slice of processed cheese",
+        "de_DE": "Scheibe Schmelzkäse"
+      },
+      "ingredients": [["/products/sliced-cheese", 25]]
+    },
     "pork-ham-slice": {
       "name": {
         "en_GB": "slice of pork ham",
         "de_DE": "Scheibe Schweineschinken"
       },
       "ingredients": [["/products/pork-ham", 0.29]]
+    },
+    "chocolate-firm-diet-portion": {
+      "name": {
+        "en_GB": "portion of firm diet chocolate",
+        "de_DE": "Portion feste Diätschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 10],
+        ["/products/syrup-chocolate-caramel", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate",
+        "de_DE": "Portion streichzarte Diätschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 15],
+        ["/products/syrup-chocolate-caramel", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-creamy-diet-portion": {
+      "name": {
+        "en_GB": "portion of creamy diet chocolate",
+        "de_DE": "Portion cremige Diätschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 20],
+        ["/products/syrup-chocolate-caramel", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-firm-semi-fat-portion": {
+      "name": {
+        "en_GB": "portion of firm semi-fat chocolate",
+        "de_DE": "Portion feste Halbfettschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 10],
+        ["/products/margarine", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-spreadable-semi-fat-portion": {
+      "name": {
+        "en_GB": "portion of spreadable semi-fat chocolate",
+        "de_DE": "Portion streichzarte Halbfettschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 15],
+        ["/products/margarine", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-creamy-semi-fat-portion": {
+      "name": {
+        "en_GB": "portion of creamy semi-fat chocolate",
+        "de_DE": "Portion cremige Halbfettschokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 20],
+        ["/products/margarine", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-full-fat-portion": {
+      "name": {
+        "en_GB": "portion of full-fat chocolate",
+        "de_DE": "Portion Vollfettschokolade"
+      },
+      "ingredients": [
+        ["/products/olive-oil", 10],
+        ["/products/syrup-chocolate-caramel", 10],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ]
     }
   }
 }
