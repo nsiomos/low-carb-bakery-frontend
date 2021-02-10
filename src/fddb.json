@@ -1118,6 +1118,61 @@
         "traits": []
       }
     },
+    "sunflower-seeds": {
+      "name": {
+        "en_GB": "sunflower seeds",
+        "de_DE": "Sonnenblumenkerne"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 250,
+            "price": 1.37,
+            "shop": "/shops/edeka",
+            "url": "https://www.edeka.de/de/produkte/bio-edeka-sonnenblumenkerne-250g-1",
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 1.09,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.sonnenblumenkerne-naturbelassen-400g.article_id=1092242.html"
+          },
+          {
+            "weight": 1,
+            "amount": 500,
+            "price": 1.37,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.sonnenblumenkerne-500g.article_id=1250792.html"
+          }
+        ]
+      },
+      "nutrients": {
+        "values": {
+          "energy": 626,
+          "fat": [
+            54,
+            {
+              "saturates": 6.1
+            }
+          ],
+          "protein": 26,
+          "carbohydrates": [
+            5.3,
+            {
+              "sugars": 3.2,
+              "polyols": null
+            }
+          ],
+          "fibres": 7.2,
+          "sodium": 0.02
+        },
+        "ingredients": [["/ingredients/sunflower-seeds"], []],
+        "traits": []
+      }
+    },
     "almonds-whole": {
       "name": {
         "en_GB": "whole almonds",
