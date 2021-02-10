@@ -1440,9 +1440,9 @@
         "traits": []
       }
     },
-    "cashew-peanut-mix-hot-chili": {
+    "cashew-peanut-mix-hot-chilli": {
       "name": {
-        "en_GB": "cashew peanut mix, hot chili",
+        "en_GB": "cashew peanut mix, hot chilli",
         "de_DE": "Cashew-Erdnuss-Mix, Hot Chili"
       },
       "nutrients": {
@@ -2672,11 +2672,8 @@
         "de_DE": "Portion streichzarte Diätschokolade"
       },
       "ingredients": [
-        ["/products/almond-drink", 15],
-        ["/products/syrup-chocolate-caramel", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
+        ["/recipes/chocolate-firm-diet-portion"],
+        ["/products/almond-drink", 5]
       ]
     },
     "chocolate-creamy-diet-portion": {
@@ -2685,11 +2682,8 @@
         "de_DE": "Portion cremige Diätschokolade"
       },
       "ingredients": [
-        ["/products/almond-drink", 20],
-        ["/products/syrup-chocolate-caramel", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
+        ["/recipes/chocolate-firm-diet-portion"],
+        ["/products/almond-drink", 10]
       ]
     },
     "chocolate-firm-semi-fat-portion": {
@@ -2711,11 +2705,8 @@
         "de_DE": "Portion streichzarte Halbfettschokolade"
       },
       "ingredients": [
-        ["/products/almond-drink", 15],
-        ["/products/margarine", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
+        ["/recipes/chocolate-firm-semi-fat-portion"],
+        ["/products/almond-drink", 5]
       ]
     },
     "chocolate-creamy-semi-fat-portion": {
@@ -2724,11 +2715,8 @@
         "de_DE": "Portion cremige Halbfettschokolade"
       },
       "ingredients": [
-        ["/products/almond-drink", 20],
-        ["/products/margarine", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
+        ["/recipes/chocolate-firm-semi-fat-portion"],
+        ["/products/almond-drink", 10]
       ]
     },
     "chocolate-full-fat-portion": {
@@ -2741,6 +2729,86 @@
         ["/products/syrup-chocolate-caramel", 10],
         ["/recipes/sweetener-liquid-drop", 12],
         ["/products/cocoa-fiber", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-soy-granules-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with soy granues",
+        "de_DE": "Portion streichzarte Diätschokolade mit Sojagranulat"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/soy-granules", 5]
+      ]
+    },
+    "chocolate-spreadable-diet-with-soy-flakes-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with soy flakes",
+        "de_DE": "Portion streichzarte Diätschokolade mit Sojaflocken"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/soy-flakes", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-sunflower-seeds-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with sunflower seeds",
+        "de_DE": "Portion streichzarte Diätschokolade mit Sonnenblumenkernen"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/sunflower-seeds", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-pumpkin-seeds-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with pumpkin seeds",
+        "de_DE": "Portion streichzarte Diätschokolade mit Kürbiskernen"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/pumpkin-flakes", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-peanuts-roasted-salted-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with peanuts",
+        "de_DE": "Portion streichzarte Diätschokolade mit Erdnüssen"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/peanuts-roasted-salted", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-cashew-peanut-mix-hot-chilli-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with hot chilli nut mix",
+        "de_DE": "Portion streichzarte Diätschokolade mit Nussmix Hot Chili"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/cashew-peanut-mix-hot-chilli", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-almond-flakes-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with almond flakes",
+        "de_DE": "Portion streichzarte Diätschokolade mit Mandelflocken"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/almond-flakes", 10]
+      ]
+    },
+    "chocolate-spreadable-diet-with-hazelnut-flakes-portion": {
+      "name": {
+        "en_GB": "portion of spreadable diet chocolate with hazelnut flakes",
+        "de_DE": "Portion streichzarte Diätschokolade mit Haselnussflocken"
+      },
+      "ingredients": [
+        ["/recipes/chocolate-spreadable-diet-portion"],
+        ["/products/hazelnut-flakes", 10]
       ]
     }
   }
