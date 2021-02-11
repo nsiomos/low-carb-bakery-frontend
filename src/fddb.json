@@ -2550,6 +2550,17 @@
         "en_GB": "almond drink",
         "de_DE": "Mandeldrink"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 1000,
+            "price": 1.15,
+            "shop": "/shops/aldi-sued",
+            "url": "https://www.aldi-sued.de/de/p.bio-mandel--oder-kokosnussdrink-l.490000000000052077.html"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 14,
@@ -2638,6 +2649,18 @@
       "name": {
         "en_GB": "olive oil",
         "de_DE": "Olivenöl"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 759,
+            "price": 3.39,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.extra-natives-olivenoel-750ml.article_id=1286758.html",
+            "flags": ["VERIFY"]
+          }
+        ]
       },
       "nutrients": {
         "values": {
@@ -2777,6 +2800,63 @@
       },
       "ingredients": [["/products/pork-ham", 0.29]]
     },
+    "chocolate-portion": {
+      "name": {
+        "en_GB": "portion of chocolate",
+        "de_DE": "Portion Schokolade"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 15],
+        ["/products/margarine", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/cocoa-fiber", 10]
+      ],
+      "variations": {
+        "use-case": {
+          "firm": {
+            "ingredientsToRemove": ["/products/almond-drink"],
+            "ingredientsToAdd": [["/products/almond-drink", 10]]
+          },
+          "spreadable": {
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "creamy": {
+            "ingredientsToRemove": ["/products/almond-drink"],
+            "ingredientsToAdd": [["/products/almond-drink", 15]]
+          }
+        },
+        "nutrients": {
+          "diet": {
+            "ingredientsToRemove": ["/products/margarine"],
+            "ingredientsToAdd": ["/products/syrup-chocolate-caramel", 10]
+          },
+          "semi-fat": {
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "full-fat": {
+            "ingredientsToRemove": [
+              "/products/almond-drink",
+              "/products/margarine",
+              "/recipes/flavour-drops-drop"
+            ],
+            "ingredientsToAdd": [
+              ["/products/olive-oil", 10],
+              ["/products/syrup-chocolate-caramel", 10]
+            ]
+          },
+          "high-fat": {
+            "ingredientsToRemove": [
+              "/products/almond-drink",
+              "/recipes/flavour-drops-drop"
+            ],
+            "ingredientsToAdd": [["/products/coconut-oil", 10]]
+          }
+        }
+      }
+    },
     "chocolate-firm-diet-portion": {
       "name": {
         "en_GB": "portion of firm diet chocolate",
@@ -2839,7 +2919,7 @@
         "de_DE": "Portion cremige Halbfettschokolade"
       },
       "ingredients": [
-        ["/recipes/chocolate-firm-semi-fat-portion"],
+        ["/recipes/chocolate-firm-semi-fat-portion", 1],
         ["/products/almond-drink", 10]
       ]
     },

@@ -124,7 +124,7 @@
     },
     "nutrientsTrait": {
       "type": "string",
-      "enum": ["GLUTEN", "LACTOSE", "ANIMAL_PRODUCT", "MEAT"]
+      "enum": ["GLUTEN", "LACTOSE", "ANIMAL", "ANIMAL_PRODUCT"]
     },
     "nutrients": {
       "type": "object",
