@@ -2978,6 +2978,239 @@
         }
       }
     },
+    "cream-portion": {
+      "name": {
+        "en_GB": "%{use-case} %{nutrients} cream %{flavour}",
+        "de_DE": "%{use-case} %{nutrients}%{flavour}Creme"
+      },
+      "ingredients": [
+        ["/products/almond-drink", 10],
+        ["/products/syrup-maple", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/soy-protein", 10]
+      ],
+      "variations": {
+        "use-case": {
+          "firm": {
+            "name": {
+              "en_GB": "firm",
+              "de_DE": "feste"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "spreadable": {
+            "name": {
+              "en_GB": "spreadable",
+              "de_DE": "streichzarte"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/almond-drink", 5]]
+          },
+          "creamy": {
+            "name": {
+              "en_GB": "creamy",
+              "de_DE": "cremige"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/almond-drink", 10]]
+          }
+        },
+        "nutrients": {
+          "diet": {
+            "name": {
+              "en_GB": "diet",
+              "de_DE": "Diät-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "semi-fat": {
+            "name": {
+              "en_GB": "semi-fat",
+              "de_DE": "Halbfett-"
+            },
+            "ingredientsToRemove": ["/products/syrup-chocolate-caramel"],
+            "ingredientsToAdd": ["/products/margarine", 10]
+          },
+          "full-fat": {
+            "name": {
+              "en_GB": "full-fat",
+              "de_DE": "Vollfett-"
+            },
+            "ingredientsToRemove": [
+              "/products/almond-drink",
+              "/recipes/flavour-drops-drop"
+            ],
+            "ingredientsToAdd": [["/products/olive-oil", 10]]
+          },
+          "high-fat": {
+            "name": {
+              "en_GB": "high-fat",
+              "de_DE": "High-Fat-"
+            },
+            "ingredientsToRemove": [
+              "/products/almond-drink",
+              "/products/syrup-chocolate-caramel",
+              "/recipes/flavour-drops-drop"
+            ],
+            "ingredientsToAdd": [
+              ["/products/coconut-oil", 10],
+              ["/products/margarine", 10]
+            ]
+          }
+        },
+        "flavour": {
+          "pure": {
+            "name": {
+              "en_GB": " pure",
+              "de_DE": " pur"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "soy-granules": {
+            "name": {
+              "en_GB": "with soy granules",
+              "de_DE": "Sojagranutat-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/soy-granules", 5]]
+          },
+          "soy-flakes": {
+            "name": {
+              "en_GB": "with soy flakes",
+              "de_DE": "Sojaflocken-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/soy-flakes", 5]]
+          },
+          "almond-flakes": {
+            "name": {
+              "en_GB": "with almond flakes",
+              "de_DE": "Mandelflocken-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/almond-flakes", 5]]
+          },
+          "hazelnut-kernels-sliced": {
+            "name": {
+              "en_GB": "with sliced hazelnut kernels",
+              "de_DE": "Haselnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/hazelnut-kernels-sliced", 5]]
+          },
+          "sunflower-seeds": {
+            "name": {
+              "en_GB": "with sunflower seeds",
+              "de_DE": "Sonnenblumenkern-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/sunflower-seeds", 5]]
+          },
+          "pumpkin-seeds": {
+            "name": {
+              "en_GB": "with pumpkin seeds",
+              "de_DE": "Kürbiskern-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/sunflower-seeds", 5]]
+          },
+          "peanuts-roasted-salted": {
+            "name": {
+              "en_GB": "with roasted and salted peanuts",
+              "de_DE": "Erdnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/peanuts-roasted-salted", 5]]
+          },
+          "cashew-peanut-mix-hot-chilli": {
+            "name": {
+              "en_GB": "with peanut mix hot chilli",
+              "de_DE": "Chili-Erdnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/peanuts-roasted-salted", 5]]
+          },
+          "berry-mix": {
+            "name": {
+              "en_GB": "with berries",
+              "de_DE": "Beeren-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/berry-mix", 10]]
+          },
+          "peanut-berry": {
+            "name": {
+              "en_GB": "with peanuts and berries",
+              "de_DE": "Beeren-Nuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [
+              ["/products/peanuts-roasted-salted", 5],
+              ["/products/berry-mix", 5]
+            ]
+          }
+        }
+      }
+    },
+    "jam-portion": {
+      "name": {
+        "en_GB": "%{nutrients} jam",
+        "de_DE": "%{nutrients}Marmelade"
+      },
+      "ingredients": [
+        ["/products/skyr", 10],
+        ["/products/syrup-vanilla", 10],
+        ["/recipes/flavour-drops-drop", 6],
+        ["/recipes/sweetener-liquid-drop", 12],
+        ["/products/berry-mix", 10]
+      ],
+      "variations": {
+        "nutrients": {
+          "diet": {
+            "name": {
+              "en_GB": "diet",
+              "de_DE": "Diät-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "semi-fat": {
+            "name": {
+              "en_GB": "semi-fat",
+              "de_DE": "Halbfett-"
+            },
+            "ingredientsToRemove": ["/products/syrup-vanilla"],
+            "ingredientsToAdd": ["/products/margarine", 10]
+          },
+          "full-fat": {
+            "name": {
+              "en_GB": "full-fat",
+              "de_DE": "Vollfett-"
+            },
+            "ingredientsToRemove": ["/products/syrup-vanilla"],
+            "ingredientsToAdd": [["/products/olive-oil", 10]]
+          },
+          "high-fat": {
+            "name": {
+              "en_GB": "high-fat",
+              "de_DE": "High-Fat-"
+            },
+            "ingredientsToRemove": [
+              "/products/skyr",
+              "/products/syrup-vanilla"
+            ],
+            "ingredientsToAdd": [
+              ["/products/margarine", 10],
+              ["/products/coconut-oil", 10]
+            ]
+          }
+        }
+      }
+    },
     "tarama-portion": {
       "name": {
         "en_GB": "%{nutrients} tarama",
