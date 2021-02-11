@@ -38,7 +38,7 @@
     },
     "purchaseSourceFlag": {
       "type": "string",
-      "enum": ["VERIFY", "INCOMPLETE"]
+      "enum": ["SALE_PRICE", "VERIFY", "INCOMPLETE", "STUB"]
     },
     "purchaseSource": {
       "type": "object",

@@ -1384,6 +1384,18 @@
         "en_GB": "peanuts roasted and salted",
         "de_DE": "Erdnüsse geröstet und gesalzen"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 0.79,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.erdnuesse-geroestet-gesalzen-200g.article_id=0971132.html",
+            "flags": ["VERIFY"]
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 618,
@@ -1416,6 +1428,18 @@
         "en_GB": "gold linseed crushed",
         "de_DE": "Goldleinsamen geschrotet"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 1.45,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.leinsamen-geschrotet-400g.article_id=1080605.html",
+            "flags": ["STUB"]
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 533,
@@ -1444,6 +1468,25 @@
       "name": {
         "en_GB": "cashew peanut mix, hot chilli",
         "de_DE": "Cashew-Erdnuss-Mix, Hot Chili"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.79,
+            "shop": "/shops/aldi",
+            "url": null,
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 200,
+            "price": 1.79,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.cashew-peanut-mix-hot-chili-200g.article_id=2886610.html"
+          }
+        ]
       },
       "nutrients": {
         "values": {
@@ -1488,6 +1531,25 @@
         "en_GB": "skyr",
         "de_DE": "Skyr"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 1.89,
+            "shop": "/shops/edeka",
+            "url": null,
+            "flags": ["VERIFY"]
+          },
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 1.89,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.skyr-joghurtalternative-natur-ungesuesst-400g.article_id=1229402.html"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 60,
@@ -1508,23 +1570,38 @@
           "fibres": 1.3,
           "sodium": 0.33
         },
-        "ingredients": [["/ingredients/water", "/ingredients/soy"], []],
-        "traits": [
-          "/ingredients/pektins",
-          "/ingredients/calcium-citrate",
-          "/ingredients/sodium-citrate",
-          "/ingredients/citric-acid",
-          "/ingredients/natural-flavours",
-          "/ingredients/antioxidants",
-          "/ingredients/salt",
-          "/ingredients/yogurt-cultures"
-        ]
+        "ingredients": [
+          ["/ingredients/water", "/ingredients/soy"],
+          [
+            "/ingredients/pektins",
+            "/ingredients/calcium-citrate",
+            "/ingredients/sodium-citrate",
+            "/ingredients/citric-acid",
+            "/ingredients/natural-flavours",
+            "/ingredients/antioxidants",
+            "/ingredients/salt",
+            "/ingredients/yogurt-cultures"
+          ]
+        ],
+        "traits": []
       }
     },
     "syrup-maple": {
       "name": {
         "en_GB": "maple syrup",
         "de_DE": "Ahornsirup"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 3.99,
+            "shop": "/shops/bulk",
+            "url": "https://www.bulk.com/de/kalorienfreier-sirup.html",
+            "flags": ["SALE_PRICE", "VERIFY"]
+          }
+        ]
       },
       "nutrients": {
         "values": {
@@ -1567,6 +1644,18 @@
         "en_GB": "vanilla syrup",
         "de_DE": "Vanillesirup"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 3.99,
+            "shop": "/shops/bulk",
+            "url": "https://www.bulk.com/de/kalorienfreier-sirup.html",
+            "flags": ["SALE_PRICE", "VERIFY"]
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 4,
@@ -1608,6 +1697,18 @@
         "en_GB": "honey syrup",
         "de_DE": "Honigsirup"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 3.99,
+            "shop": "/shops/bulk",
+            "url": "https://www.bulk.com/de/kalorienfreier-sirup.html",
+            "flags": ["SALE_PRICE", "VERIFY"]
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 3,
@@ -1648,6 +1749,18 @@
       "name": {
         "en_GB": "chocolate-caramel syrup",
         "de_DE": "Schokolade-Karamell-Sirup"
+      },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 400,
+            "price": 3.99,
+            "shop": "/shops/bulk",
+            "url": "https://www.bulk.com/de/kalorienfreier-sirup.html",
+            "flags": ["SALE_PRICE", "VERIFY"]
+          }
+        ]
       },
       "nutrients": {
         "values": {
