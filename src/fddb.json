@@ -1916,6 +1916,17 @@
         "en_GB": "chicken egg",
         "de_DE": "Hühnerei"
       },
+      "purchase": {
+        "sources": [
+          {
+            "weight": 1,
+            "amount": 550,
+            "price": 1.29,
+            "shop": "/shops/kaufland",
+            "url": "https://www.kaufland.de/sortiment/das-sortiment/detail.eier-bodenhaltung-hkl-a-10-stueck.article_id=1268300.html"
+          }
+        ]
+      },
       "nutrients": {
         "values": {
           "energy": 137,
