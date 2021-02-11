@@ -2802,8 +2802,8 @@
     },
     "chocolate-portion": {
       "name": {
-        "en_GB": "portion of chocolate",
-        "de_DE": "Portion Schokolade"
+        "en_GB": "%{use-case} %{nutrients} chocolate %{flavour}",
+        "de_DE": "%{use-case} %{nutrients}%{flavour}Schokolade"
       },
       "ingredients": [
         ["/products/almond-drink", 15],
@@ -2815,28 +2815,52 @@
       "variations": {
         "use-case": {
           "firm": {
+            "name": {
+              "en_GB": "firm",
+              "de_DE": "feste"
+            },
             "ingredientsToRemove": ["/products/almond-drink"],
             "ingredientsToAdd": [["/products/almond-drink", 10]]
           },
           "spreadable": {
+            "name": {
+              "en_GB": "spreadable",
+              "de_DE": "streichzarte"
+            },
             "ingredientsToRemove": [],
             "ingredientsToAdd": []
           },
           "creamy": {
+            "name": {
+              "en_GB": "creamy",
+              "de_DE": "cremige"
+            },
             "ingredientsToRemove": ["/products/almond-drink"],
             "ingredientsToAdd": [["/products/almond-drink", 15]]
           }
         },
         "nutrients": {
           "diet": {
+            "name": {
+              "en_GB": "diet",
+              "de_DE": "Diät-"
+            },
             "ingredientsToRemove": ["/products/margarine"],
             "ingredientsToAdd": ["/products/syrup-chocolate-caramel", 10]
           },
           "semi-fat": {
+            "name": {
+              "en_GB": "semi-fat",
+              "de_DE": "Halbfett-"
+            },
             "ingredientsToRemove": [],
             "ingredientsToAdd": []
           },
           "full-fat": {
+            "name": {
+              "en_GB": "full-fat",
+              "de_DE": "Vollfett-"
+            },
             "ingredientsToRemove": [
               "/products/almond-drink",
               "/products/margarine",
@@ -2848,11 +2872,41 @@
             ]
           },
           "high-fat": {
+            "name": {
+              "en_GB": "high-fat",
+              "de_DE": "High-Fat-"
+            },
             "ingredientsToRemove": [
               "/products/almond-drink",
               "/recipes/flavour-drops-drop"
             ],
             "ingredientsToAdd": [["/products/coconut-oil", 10]]
+          }
+        },
+        "flavour": {
+          "pure": {
+            "name": {
+              "en_GB": " pure",
+              "de_DE": " pur"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "soy-granules": {
+            "name": {
+              "en_GB": "with soy granules",
+              "de_DE": "Sojagranutat-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/soy-granules", 5]]
+          },
+          "soy-flakes": {
+            "name": {
+              "en_GB": "with soy flakes",
+              "de_DE": "Sojaflocken-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/soy-flakes", 5]]
           }
         }
       }
