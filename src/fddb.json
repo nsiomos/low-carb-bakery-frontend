@@ -2806,8 +2806,8 @@
         "de_DE": "%{use-case} %{nutrients}%{flavour}Schokolade"
       },
       "ingredients": [
-        ["/products/almond-drink", 15],
-        ["/products/margarine", 10],
+        ["/products/almond-drink", 10],
+        ["/products/syrup-chocolate-caramel", 10],
         ["/recipes/flavour-drops-drop", 6],
         ["/recipes/sweetener-liquid-drop", 12],
         ["/products/cocoa-fiber", 10]
@@ -2819,8 +2819,8 @@
               "en_GB": "firm",
               "de_DE": "feste"
             },
-            "ingredientsToRemove": ["/products/almond-drink"],
-            "ingredientsToAdd": [["/products/almond-drink", 10]]
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
           },
           "spreadable": {
             "name": {
@@ -2828,15 +2828,15 @@
               "de_DE": "streichzarte"
             },
             "ingredientsToRemove": [],
-            "ingredientsToAdd": []
+            "ingredientsToAdd": [["/products/almond-drink", 5]]
           },
           "creamy": {
             "name": {
               "en_GB": "creamy",
               "de_DE": "cremige"
             },
-            "ingredientsToRemove": ["/products/almond-drink"],
-            "ingredientsToAdd": [["/products/almond-drink", 15]]
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/almond-drink", 10]]
           }
         },
         "nutrients": {
@@ -2845,16 +2845,16 @@
               "en_GB": "diet",
               "de_DE": "Diät-"
             },
-            "ingredientsToRemove": ["/products/margarine"],
-            "ingredientsToAdd": ["/products/syrup-chocolate-caramel", 10]
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
           },
           "semi-fat": {
             "name": {
               "en_GB": "semi-fat",
               "de_DE": "Halbfett-"
             },
-            "ingredientsToRemove": [],
-            "ingredientsToAdd": []
+            "ingredientsToRemove": ["/products/syrup-chocolate-caramel"],
+            "ingredientsToAdd": ["/products/margarine", 10]
           },
           "full-fat": {
             "name": {
@@ -2863,13 +2863,9 @@
             },
             "ingredientsToRemove": [
               "/products/almond-drink",
-              "/products/margarine",
               "/recipes/flavour-drops-drop"
             ],
-            "ingredientsToAdd": [
-              ["/products/olive-oil", 10],
-              ["/products/syrup-chocolate-caramel", 10]
-            ]
+            "ingredientsToAdd": [["/products/olive-oil", 10]]
           },
           "high-fat": {
             "name": {
@@ -2878,9 +2874,13 @@
             },
             "ingredientsToRemove": [
               "/products/almond-drink",
+              "/products/syrup-chocolate-caramel",
               "/recipes/flavour-drops-drop"
             ],
-            "ingredientsToAdd": [["/products/coconut-oil", 10]]
+            "ingredientsToAdd": [
+              ["/products/coconut-oil", 10],
+              ["/products/margarine", 10]
+            ]
           }
         },
         "flavour": {
@@ -2907,167 +2907,129 @@
             },
             "ingredientsToRemove": [],
             "ingredientsToAdd": [["/products/soy-flakes", 5]]
+          },
+          "almond-flakes": {
+            "name": {
+              "en_GB": "with almond flakes",
+              "de_DE": "Mandelflocken-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/almond-flakes", 5]]
+          },
+          "hazelnut-kernels-sliced": {
+            "name": {
+              "en_GB": "with sliced hazelnut kernels",
+              "de_DE": "Haselnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/hazelnut-kernels-sliced", 5]]
+          },
+          "sunflower-seeds": {
+            "name": {
+              "en_GB": "with sunflower seeds",
+              "de_DE": "Sonnenblumenkern-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/sunflower-seeds", 5]]
+          },
+          "pumpkin-seeds": {
+            "name": {
+              "en_GB": "with pumpkin seeds",
+              "de_DE": "Kürbiskern-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/sunflower-seeds", 5]]
+          },
+          "peanuts-roasted-salted": {
+            "name": {
+              "en_GB": "with roasted and salted peanuts",
+              "de_DE": "Erdnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/peanuts-roasted-salted", 5]]
+          },
+          "cashew-peanut-mix-hot-chilli": {
+            "name": {
+              "en_GB": "with peanut mix hot chilli",
+              "de_DE": "Chili-Erdnuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/peanuts-roasted-salted", 5]]
+          },
+          "berry-mix": {
+            "name": {
+              "en_GB": "with berries",
+              "de_DE": "Beeren-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [["/products/berry-mix", 10]]
+          },
+          "peanut-berry": {
+            "name": {
+              "en_GB": "with peanuts and berries",
+              "de_DE": "Beeren-Nuss-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": [
+              ["/products/peanuts-roasted-salted", 5],
+              ["/products/berry-mix", 5]
+            ]
           }
         }
       }
     },
-    "chocolate-firm-diet-portion": {
+    "tarama-portion": {
       "name": {
-        "en_GB": "portion of firm diet chocolate",
-        "de_DE": "Portion feste Diätschokolade"
+        "en_GB": "%{nutrients} tarama",
+        "de_DE": "%{nutrients}Tarama"
       },
       "ingredients": [
-        ["/products/almond-drink", 10],
-        ["/products/syrup-chocolate-caramel", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate",
-        "de_DE": "Portion streichzarte Diätschokolade"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-firm-diet-portion", 1],
-        ["/products/almond-drink", 5]
-      ]
-    },
-    "chocolate-creamy-diet-portion": {
-      "name": {
-        "en_GB": "portion of creamy diet chocolate",
-        "de_DE": "Portion cremige Diätschokolade"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-firm-diet-portion", 1],
-        ["/products/almond-drink", 10]
-      ]
-    },
-    "chocolate-firm-semi-fat-portion": {
-      "name": {
-        "en_GB": "portion of firm semi-fat chocolate",
-        "de_DE": "Portion feste Halbfettschokolade"
-      },
-      "ingredients": [
-        ["/products/almond-drink", 10],
-        ["/products/margarine", 10],
-        ["/recipes/flavour-drops-drop", 6],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
-      ]
-    },
-    "chocolate-spreadable-semi-fat-portion": {
-      "name": {
-        "en_GB": "portion of spreadable semi-fat chocolate",
-        "de_DE": "Portion streichzarte Halbfettschokolade"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-firm-semi-fat-portion", 1],
-        ["/products/almond-drink", 5]
-      ]
-    },
-    "chocolate-creamy-semi-fat-portion": {
-      "name": {
-        "en_GB": "portion of creamy semi-fat chocolate",
-        "de_DE": "Portion cremige Halbfettschokolade"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-firm-semi-fat-portion", 1],
-        ["/products/almond-drink", 10]
-      ]
-    },
-    "chocolate-full-fat-portion": {
-      "name": {
-        "en_GB": "portion of full-fat chocolate",
-        "de_DE": "Portion Vollfettschokolade"
-      },
-      "ingredients": [
-        ["/products/olive-oil", 10],
-        ["/products/syrup-chocolate-caramel", 10],
-        ["/recipes/sweetener-liquid-drop", 12],
-        ["/products/cocoa-fiber", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-soy-granules-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with soy granues",
-        "de_DE": "Portion streichzarte Diätschokolade mit Sojagranulat"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/soy-granules", 5]
-      ]
-    },
-    "chocolate-spreadable-diet-with-soy-flakes-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with soy flakes",
-        "de_DE": "Portion streichzarte Diätschokolade mit Sojaflocken"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/soy-flakes", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-sunflower-seeds-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with sunflower seeds",
-        "de_DE": "Portion streichzarte Diätschokolade mit Sonnenblumenkernen"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/sunflower-seeds", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-pumpkin-seeds-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with pumpkin seeds",
-        "de_DE": "Portion streichzarte Diätschokolade mit Kürbiskernen"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/pumpkin-flakes", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-peanuts-roasted-salted-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with peanuts",
-        "de_DE": "Portion streichzarte Diätschokolade mit Erdnüssen"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/peanuts-roasted-salted", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-cashew-peanut-mix-hot-chilli-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with hot chilli nut mix",
-        "de_DE": "Portion streichzarte Diätschokolade mit Nussmix Hot Chili"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/cashew-peanut-mix-hot-chilli", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-almond-flakes-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with almond flakes",
-        "de_DE": "Portion streichzarte Diätschokolade mit Mandelflocken"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/almond-flakes", 10]
-      ]
-    },
-    "chocolate-spreadable-diet-with-hazelnut-flakes-portion": {
-      "name": {
-        "en_GB": "portion of spreadable diet chocolate with hazelnut flakes",
-        "de_DE": "Portion streichzarte Diätschokolade mit Haselnussflocken"
-      },
-      "ingredients": [
-        ["/recipes/chocolate-spreadable-diet-portion", 1],
-        ["/products/hazelnut-flakes", 10]
-      ]
+        ["/products/skyr", 10],
+        ["/products/syrup-vanilla", 10],
+        ["/products/sea-salmon-mus", 10]
+      ],
+      "variations": {
+        "nutrients": {
+          "diet": {
+            "name": {
+              "en_GB": "diet",
+              "de_DE": "Diät-"
+            },
+            "ingredientsToRemove": [],
+            "ingredientsToAdd": []
+          },
+          "semi-fat": {
+            "name": {
+              "en_GB": "semi-fat",
+              "de_DE": "Halbfett-"
+            },
+            "ingredientsToRemove": ["/products/syrup-vanilla"],
+            "ingredientsToAdd": ["/products/margarine", 10]
+          },
+          "full-fat": {
+            "name": {
+              "en_GB": "full-fat",
+              "de_DE": "Vollfett-"
+            },
+            "ingredientsToRemove": ["/products/syrup-vanilla"],
+            "ingredientsToAdd": [["/products/olive-oil", 10]]
+          },
+          "high-fat": {
+            "name": {
+              "en_GB": "high-fat",
+              "de_DE": "High-Fat-"
+            },
+            "ingredientsToRemove": [
+              "/products/skyr",
+              "/products/syrup-vanilla"
+            ],
+            "ingredientsToAdd": [
+              ["/products/margarine", 10],
+              ["/products/coconut-oil", 10]
+            ]
+          }
+        }
+      }
     }
   }
 }
