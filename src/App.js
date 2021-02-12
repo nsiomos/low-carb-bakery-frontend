@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Ajv from "ajv";
 import Header from "./Header";
+import SaleItemList from "./SaleItemList";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -27,6 +28,7 @@ export default function App() {
   return (
     <div className="App">
       <Header></Header>
+      <SaleItemList />
     </div>
   );
 }
