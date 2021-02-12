@@ -3119,6 +3119,29 @@
           }
         }
       }
+    },
+    "biscuit-cake-nuts": {
+      "name": {
+        "en_GB": "biscuit cake with nuts",
+        "de_DE": "Nuss-Biscuitkuchen"
+      },
+      "ingredients": [
+        ["/products/wheat-gluten", 0.15],
+        ["/products/oat-fiber", 0.15],
+        ["/products/gold-linseed-flour", 0.15],
+        ["/products/soy-flour", 0.15],
+        ["/ingredients/water", 0.4]
+      ]
+    }
+  },
+  "sale-items": {
+    "biscuit-cake-nuts": {
+      "name": {
+        "en_GB": "biscuit cake with nuts",
+        "de_DE": "Nuss-Biscuitkuchen"
+      },
+      "price": 2.99,
+      "recipe": "/recipes/biscuit-cake-nuts"
     }
   }
 }

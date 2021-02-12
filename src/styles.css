@@ -19,3 +19,18 @@
 .Headline h2 {
   font-size: medium;
 }
+
+.SaleItem .header {
+  white-space: nowrap;
+}
+
+.SaleItem .header img {
+  width: 128px;
+  height: 96px;
+}
+
+.SaleItem .header .price {
+  text-align: right;
+  font-weight: bold;
+  color: darkred;
+}
