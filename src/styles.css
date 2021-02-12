@@ -1,4 +1,21 @@
 .App {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
+}
+
+.Header {
+  background-color: darkred;
+}
+.Headline {
+  color: cornsilk;
+  text-align: left;
+}
+
+.Headline h1 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Headline h2 {
+  font-size: medium;
 }
